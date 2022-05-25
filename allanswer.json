@@ -1,0 +1,2464 @@
+[
+  {
+    "savol": "Zaxman modeli qaysi asosiy arxitekturaviy muammolarni hal qilishni taklif qiladi??",
+    "javob": "Mantiqiy ravishda barcha arxitektura tavsiflarini shakllantirish va idrok etishni soddalashtirish uchun ularni alohida bo'limlarga ajratish"
+  },
+  {
+    "savol": "4 + 1 modelida Mantiqiy tasavvur toifasi qanday rol o'ynaydi??",
+    "javob": "Ishlab chiqilgan axborot tizimining loyiha modellari"
+  },
+  {
+    "savol": "4 + 1 modelida qanday jarayon View toifasi ishlatiladi?",
+    "javob": "Biznes jarayonlarini bajarish tartibi va sinxronizatsiyasi aspektlarining tavsiflari"
+  },
+  {
+    "savol": "\"4 + 1\" modelidagi dasturiy mahsulotning ishlab chiqilgan arxitekturasining birlashtiruvchisi bu??",
+    "javob": "Maxsus foydalanish holatlari(use case)"
+  },
+  {
+    "savol": "\"SAM\" strategik arxitektura modeli?",
+    "javob": "Dasturiy mahsulotlar arxitekturasini va tegishli biznes sohalarini tahlil qilish va hujjatlashtirish vositasi"
+  },
+  {
+    "savol": "Arxitektura shablonlari bu??",
+    "javob": "Paydo bo'ladigan xatarlarni minimallashtirish uchun axborot tizimlari va vositalarini loyihalash bo'yicha eng yaxshi amaliyotlarni o'z ichiga olgan hujjat turi"
+  },
+  {
+    "savol": "Dasturiy mahsulot arxitekturasi quyidagilardan iborat?",
+    "javob": "Ierarxik jihatdan bo'ysunuvchi darajalar to'plami, ularning har biri axborot tizimining individual jihatlarini tavsiflaydi"
+  },
+  {
+    "savol": "Arxitektura dasturiy mahsulotini yaratish maqsadi?",
+    "javob": "Asosiy manfaatdor tomonlar guruhining murakkab va ziddiyatli ehtiyojlarini qondirish"
+  },
+  {
+    "savol": "Shablonni qo'llashga nimalarga imkon beradi?",
+    "javob": "Muayyan vaziyatda bir qator vazifalar / muammolar bo'yicha umumiy echimni ishlab chiqish, bu allaqachon yaratilgan jarayonlarning samaradorligini oshirishga yoki barqarorlashishiga yordam beradi."
+  },
+  {
+    "savol": "Dastur talablari degani?",
+    "javob": "Amalga oshiriladigan dasturiy ta'minot tizimining elementlari, xususiyatlari yoki xususiyatlari haqidagi bayonotlar to'plami"
+  },
+  {
+    "savol": "Funktsional talablar?",
+    "javob": "Dasturiy mahsulotning xususiyatlari va biznes maqsadlari va maqsadlariga erishiladigan axborot tizimi va foydalanuvchilar o'rtasidagi o'zaro ta'sir jarayoniga qo'yiladigan talablar"
+  },
+  {
+    "savol": "Funktsional bo'lmagan talablar?",
+    "javob": "Ma'lum bir sharoit uchun maqbul bo'lgan dasturiy mahsulot arxitekturasini \"o'stirish\" mumkin bo'lgan axborot mahsuloti uchun tizim asosini yaratishga imkon beradigan talablarning turi"
+  },
+  {
+    "savol": "Komponent nima degani?",
+    "javob": "Tarkibni qayta ishlash va inkapsulyatsiyadan iborat bo'lgan tizim moduli yoki alohida dasturiy mahsulot"
+  },
+  {
+    "savol": "Dasturiy mahsulot arxitekturasining asosiy ob'ekti sifatida tarkibiy qismning xatti-harakatlari quyidagi asosiy talablarning qaysi biri qisman yolg'on:?",
+    "javob": "Xavfsizlik, ishonchlilik va ishlash talablari"
+  },
+  {
+    "savol": "Dasturiy mahsulotning arxitekturasi va funksionalligini amalga oshirish bo'yicha ishlarning boshida bu juda muhimdir?",
+    "javob": "Dasturiy mahsulot arxitekturasini ishlab chiqish doirasiga kiritilgan barcha zaruriy imkoniyatlar to'g'risida barcha ma'lumotlarni yozib olish va saqlash."
+  },
+  {
+    "savol": "Dasturiy mahsulot hayot siklida ishlashning birinchi bosqichi?",
+    "javob": "Kontseptsiya va funktsionallik uchun birlamchi, yuqori darajadagi talablar to'plamini shakllantirish"
+  },
+  {
+    "savol": "Dasturiy ta'minotni modellashtirish nima??",
+    "javob": "Kodlashdan oldin dasturiy ta'minotni loyihalash."
+  },
+  {
+    "savol": "Birlashtirilgan modellashtirish tili nima??",
+    "javob": "Ob'ektga yo'naltirilgan modellarni tavsiflash uchun standartlashtirilgan grafik til va yozuv."
+  },
+  {
+    "savol": "Dastur arxitekturasi nima??",
+    "javob": "Dasturiy ta'minot tizimining umumiy tuzilishi."
+  },
+  {
+    "savol": "Dasturiy ta'minot loyihasi kontseptsiyasi nima??",
+    "javob": "Tizimni loyihalashda qo'llanilishi mumkin bo'lgan asosiy g'oya."
+  },
+  {
+    "savol": "Amaliy ish diagrammasida aktyor qanday tasvirlangan??",
+    "javob": "Odamcha figurasi"
+  },
+  {
+    "savol": "Ish holati diagrammasida foydalanish holati qanday tasvirlangan??",
+    "javob": "Tasvirlar"
+  },
+  {
+    "savol": "Assostsiya sinf diagrammasida qanday tasvirlangan??",
+    "javob": "Ikkala sinf qutilarini birlashtiruvchi qattiq chiziq"
+  },
+  {
+    "savol": "UML bilan ishlashning ikki xil diagrammasi qanday??",
+    "javob": "Ketma-ketlik diagrammasi va aloqa diagrammasi"
+  },
+  {
+    "savol": "O'zaro ta'sir diagrammasi nimani aks ettiradi??",
+    "javob": "Ob'ektlar va xabarlar"
+  },
+  {
+    "savol": "Statechart diagrammasi nimani tasvirlaydi??",
+    "javob": "Holatlar va hodisalar"
+  },
+  {
+    "savol": "UML to'plami nima??",
+    "javob": "Model elementlarining guruhlanishi"
+  },
+  {
+    "savol": "Dasturiy ta'minotning hayotiy aylanishi nima??",
+    "javob": "Dasturiy ta'minotni ishlab chiqishga bosqichma-bosqich yondashish"
+  },
+  {
+    "savol": "Sharshara hayot aylanishining modeli qanday??",
+    "javob": "Har bir bosqich keyingi bosqich boshlanishidan oldin yakunlanadigan jarayon modeli"
+  },
+  {
+    "savol": "Quyidagilardan qaysi biri ob'ektiv yo'naltirilgan tushunchalar??",
+    "javob": "Sinflar, ma'lumotni yashirish va meros"
+  },
+  {
+    "savol": "Quyidagilardan qaysi biri ob'ektga xos xususiyatdir??",
+    "javob": "Ma'lumotlar asosida ishlaydigan ma'lumotlar va protseduralarni guruhlarga ajratish"
+  },
+  {
+    "savol": "Sinf nima??",
+    "javob": "Bir xil xususiyatlarga ega bo'lgan ob'ektlar to'plami"
+  },
+  {
+    "savol": "Sinfning operatsiyasi (shuningdek, metod deb ham ataladi) nima??",
+    "javob": "Spetsifikatsiya va sinf tomonidan taqdim etilgan funktsiya yoki protsedurani amalga oshirish"
+  },
+  {
+    "savol": "Sinfning interfeysi nima??",
+    "javob": "Sinf tomonidan taqdim etiladigan operatsiyalarning spetsifikatsiyasi"
+  },
+  {
+    "savol": "Atribut nima??",
+    "javob": "Sinf tomonidan saqlanadigan ma'lumotlar elementi"
+  },
+  {
+    "savol": "Dasturiy ta'minotni loyihalashda ma'lumotlarni yashirish nima??",
+    "javob": "Xavfsizligini ta'minlash uchun ma'lumotni yashirish"
+  },
+
+  {
+    "savol": "Loyihani rejalashtirish quyidagi tartib bilan boshlanadi:?",
+    "javob": "joriy jadval va resurs ma'lumotlarini direktiv jadval bilan solishtirish."
+  },
+  {
+    "savol": "Tanlangan ish uchun faoliyat turi \"ruhsat etilgan miqdor\" bo'lsa va bir xil ish uchun boshqa resurs qo'shilsa, ma'lumotlar qanday o'zgaradi??",
+    "javob": "rejalashtirilgan miqdor."
+  },
+  {
+    "savol": "Loyiha ishi nima??",
+    "javob": "resurslarning bajarilishi uchun loyihaning elementi."
+  },
+  {
+    "savol": "Loyiha bilan ishlashda “ Kritik yo'l ” bu -?",
+    "javob": "loyihaning asosiy bosqichlari ko'rsatkichi."
+  },
+  {
+    "savol": "Investitsion risk turi va uning ta'rifi o'rtasidagi muvofiqlikni ko'rsating (Kapital riski)?",
+    "javob": "kompyuter sistemasida vositalarni jamg’arish bn bog’liq bo’lgan ma’lumotlarni qayta ishlash xatoliklardagi - yo’qotish riski."
+  },
+  {
+    "savol": "Quyida sanab o’tilgan qaysi risklar tashqi risklar sirasiga kiradi??",
+    "javob": "texnik"
+  },
+  {
+    "savol": "Tashqi xavflarga xos xususiyatga e'tibor bering:?",
+    "javob": "loyihaning tashqi muhiti tomonidan yaratilgan;"
+  },
+  {
+    "savol": "Loyiha ishtirokchisi kim??",
+    "javob": "loyiha boshqaruvi guruhi a'zolari va amalga oshiruvchilar."
+  },
+  {
+    "savol": "Loyihaning hayot sikli fazalari:?",
+    "javob": "g'oya, amalga oshirish, banket, xarajatlarni hisoblash va qarzlarni to'lash."
+  },
+  {
+    "savol": "Ichki xavflarga xos bo'lgan harakterlarni ifodalash:?",
+    "javob": "Boshqarib bo'ladi."
+  },
+  {
+    "savol": "Loyihani amalga oshirishda ko'proq xavf ostida bo'lishadi:?",
+    "javob": "pudratchilar"
+  },
+  {
+    "savol": "Xavf ehtimolini quyidagi usul bilan baholash mumkin emas:?",
+    "javob": "Ekspert usul bilan;"
+  },
+  {
+    "savol": "Ish faoliyat turiga ega - \"Qatilgan intensivlik\"?",
+    "javob": "resurslar miqdori."
+  },
+  {
+    "savol": "Loyiha boshqaruvidagi integratsiya hujjati?",
+    "javob": "ish hujjatlari."
+  },
+  {
+    "savol": "Xodimlarni taqsimlash boshqaruv rejasi bo'lishi mumkin?",
+    "javob": "Yuqoridagilarning barchasi."
+  },
+  {
+    "savol": "Ehtimoliy usullar ...?",
+    "javob": "noyob loyihalar uchun ishlatiladi."
+  },
+  {
+    "savol": "Risklarni boshqarish quyidagi tartiblardan iborat:?",
+    "javob": "riskli hodisalarga javob berishni rejalashtirish va monitoring"
+  },
+  {
+    "savol": "Ishning qaysi turi loyihaning boshqa ishlarining bajarilishiga va davomiyligiga bog'liq?",
+    "javob": "manbaga asoslangan"
+  },
+  {
+    "savol": "Loyiha bosqichi nima??",
+    "javob": "natijaga erishish uchun mo'ljallangan har qanday mantiqiy bog'liq operatsiyalar to'plami."
+  },
+  {
+    "savol": "Quyidagilardan qaysi biri loyiha tashkiliy tuzilmasining afzalligi emas??",
+    "javob": "Odamlar va uskunalarni ulash loyihalar orqali amalga oshiriladi"
+  },
+  {
+    "savol": "Loyiha sifatini nazorat qilishni tashkil etish va o'tkazish jarayonlari qanday??",
+    "javob": "Hisobot bilan oraliq va yakuniy sifat nazorati"
+  },
+  {
+    "savol": "Loyihaning dastlabki bosqichida resurslarning qaysi qismi sarflanadi??",
+    "javob": "9-15 %"
+  },
+  {
+    "savol": "Loyihani amalga oshirishga qaysi omillar ko'proq ta'sir qilmoqda??",
+    "javob": "Iqtisodiy va huquqiy"
+  },
+  {
+    "savol": "Investitsion loyihalarning ajralib turadigan xususiyati nimada:?",
+    "javob": "Noaniqlik va xavflarning yuqori darajasi"
+  },
+  {
+    "savol": "Tanqidiy yo'l usuli nima??",
+    "javob": "Loyihani amalga oshirish muddatini qisqartirish uchun optimallashtirish"
+  },
+  {
+    "savol": "Loyihaning tarkibiy tuzilishi:?",
+    "javob": "Loyihaning butun ierarxik tuzilmasi grafikalari va sxemalari shaklida ingl."
+  },
+  {
+    "savol": "Loyihani amalga oshirish boshlanishi va tugatish o'rtasidagi vaqt oralig'i nima??",
+    "javob": "Loyihaning hayot davri"
+  },
+  {
+    "savol": "Microsoft Projectda quyidagi resurslarning qay birida bor:?",
+    "javob": "Xom ashyoviy, mehnat, qimmat"
+  },
+  {
+    "savol": "Bitta loyiha boshqaruvchisi boshqa ishchi yo’q bo’lgan loyiha …….?",
+    "javob": "Zaif"
+  },
+  {
+    "savol": "Loyihani reklama qilishga yordam beradigan chegirma nomi nima??",
+    "javob": "Marketing"
+  },
+  {
+    "savol": "Loyihaning maqsad va vazifalariga muvofiq ishlashga qodir bo'lgan jamoani tashkil qilishda loyiha menejerini qo'llab-quvvatlovchi ikkita vosita tashkilotning tizimli sxemasi va ...?",
+    "javob": "Mas'uliyat matritsasi"
+  },
+  {
+    "savol": "Loyihani ishlab chiqishdagi holatilari -bu loyiha …..dir?",
+    "javob": "Fazalar"
+  },
+  {
+    "savol": "Amalga oshirilayotgan loyihaning har bir ishtirokchisidan keladigan pul oqimlari qanday nomlanadi??",
+    "javob": "Kirim pullar"
+  },
+  {
+    "savol": "Bir yoki bir nechta loyihalarni amalga oshirishda doimiy ishtirok etadigan tashkilotlarda qo'llaniladigan loyihalarni boshqarishning tashkiliy tuzilmasi qanday nomlanadi??",
+    "javob": "Loyihani to'liq boshqarish"
+  },
+  {
+    "savol": "Buyurtmachi o'zining yakuniy narxini asl nusxasiga nisbatan oshirishga qaror qilishi mumkin bo'lgan loyiha:?",
+    "javob": "Qisqa muddatli"
+  },
+  {
+    "savol": "Loyihaning virtual ofisini yaratish jarayonida resurslarni birlashtirish hududiy mustaqillik bilan tavsiflanadi.?",
+    "javob": "Hududiy"
+  },
+  {
+    "savol": "Ta'rif berilgan atamani tanlang: \"loyiha egasi va uning natijalarining kelajakdagi foydalanuvchisi\"?",
+    "javob": "Loyiha mijozi"
+  },
+  {
+    "savol": "Loyihaning tarmoq jadvali nima uchun mo'ljallangan?",
+    "javob": "loyiha ishlari kompleksini amalga oshirish uchun vaqt sarfini boshqarish"
+  },
+  {
+    "savol": "Ishning tarkibiy dekompozitsatsiyasi turini ayting?",
+    "javob": "Mahsulot ITD"
+  },
+  {
+    "savol": "Ta'rif berilgan atamani tanlang: \"loyihani o'zi yoki qarz mablag'lari hisobidan moliyalashtiradi\"?",
+    "javob": "Loyiha investori"
+  },
+  {
+    "savol": "Quyidagi zahiralardan qaysi biri loyiha tarmoq jadvalining parametri emas?",
+    "javob": "to'liq emas"
+  },
+  {
+    "savol": "Loyihani boshqarish usulining maqsadini tanlang: Kritik yo'l usuli?",
+    "javob": "loyihani ishlab chiqish muddatini minimal darajaga qisqartirish"
+  },
+  {
+    "savol": "Ta'rif berilgan atamani tanlang: \"loyihani boshqarishda ishtirok etadigan loyiha jamoasi a'zolari\"?",
+    "javob": "Loyiha boshqaruvi jamoasi"
+  },
+  {
+    "savol": "Quyidagilardan qaysi biri loyiha boshqaruvi tashkiliy tuzilmasining turiga kirmaydi?",
+    "javob": "strategik"
+  },
+  {
+    "savol": "Loyihani boshqarishning funktsional strukturasining kamchiliklari?",
+    "javob": "loyiha ishtirokchilari o'rtasidagi o'zaro aloqalar sonini oshiradi"
+  },
+  {
+    "savol": "Ta'rif berilgan atamani tanlang: \"uni amalga oshirishda ishtirok etgan loyiha ishtirokchilari\"?",
+    "javob": "Loyiha jamoasi"
+  },
+  {
+    "savol": "Quyidagi byudjet shakllaridan qaysi biri mavjud emas??",
+    "javob": "xarajatlar byudjeti"
+  },
+  {
+    "savol": "Ta'rif berilgan atamani tanlang: \"loyihaning barcha natijalari uchun shaxsan mas'ul bo'lgan loyihani boshqarish guruhi a'zosi\"?",
+    "javob": "Loyiha menejeri"
+  },
+  {
+    "savol": "Loyihani tarmog’ini rejalashtirishda \"voqea\" elementi bilan tavsiflanadi...?",
+    "javob": "raqam, erta va kech"
+  },
+  {
+    "savol": "Quyidagilardan qaysi biri Davlat standarti R ga muvofiq mijozning qiziqishini aniqlaydi Loyiha boshqaruvi PORTFELI BOSHQARUVGA TALABLAR?",
+    "javob": "qiziqish yo'q"
+  },
+  {
+    "savol": "Loyiha ofisi bu?",
+    "javob": "yordam beruvchi bo'lim - loyihalarni ma'muriy boshqarish jarayonini osonlashtiradi .."
+  },
+  {
+    "savol": "Quyidagilardan qaysi biri Davlat standarti R ga muvofiq buyurtmachining qiziqishini belgilaydi Loyiha boshqaruvi LOYIHALARNI BOSHQARUVGA TALABLAR?",
+    "javob": "loyiha mahsuloti"
+  },
+  {
+    "savol": "Ta'rif berilgan atamani tanlang: \"loyiha ishini amalga oshirish uchun mas'ul bo'lgan bosh kompaniya rahbariyatining vakili\".?",
+    "javob": "Loyiha kuratori"
+  },
+  {
+    "savol": "Yakunlash bosqichi tushunchasini tanlang?",
+    "javob": "biz loyiha kontseptsiyasida o'ylab topilgan mahsulotni aniq ishlab chiqqanimizni tasdiqlash"
+  },
+  {
+    "savol": "Loyiha risklarini boshqarish - bu?",
+    "javob": "yo'qotishlarni kamaytirish va rentabellikni oshirishni ta'minlash uchun vaziyatni aniqlash, aniqlash, tahlil qilish, baholash, qayta ishlash, xavflarni monitoring qilish va axborot almashinuvi vazifalariga siyosat, tartib va boshqaruv usullarini tizimli qo'llash."
+  },
+  {
+    "savol": "Quyidagilardan qaysi biri loyiha xavfini kamaytirish yo'llariga kiradi??",
+    "javob": "diversifikatsiya"
+  },
+  {
+    "savol": "Ta'rif berilgan atamani tanlang: \"mijoz yoki loyihaning yakuniy mahsulotining boshqa xaridorlari\"?",
+    "javob": "Loyiha mahsulotining foydalanuvchilari"
+  },
+  {
+    "savol": "Qanday asosiy xabar turlari mavjud:?",
+    "javob": "kirish xabarlari va chiqish xabarlari"
+  },
+  {
+    "savol": "Protsessual interfeyslar necha turga bo'linadi??",
+    "javob": "3.0"
+  },
+  {
+    "savol": "Vizual dizayni yaratish uchun o'zaro bog'liq bo'lgan asosiy nechta elementlar mavjud??",
+    "javob": "6.0"
+  },
+  {
+    "savol": "To'g'ri protsessual interfeys turlarini tanlang:?",
+    "javob": "ibtidoiy; menyu; bepul navigatsiya bilan"
+  },
+  {
+    "savol": "Interfeys dizayniga yondashuvlar:?",
+    "javob": "muhandislik (avtomatlashtirilgan) va kognitiv (insonga asoslangan)"
+  },
+  { "savol": "Interfeys dizayni necha qonunlardan iborat??", "javob": "2.0" },
+  {
+    "savol": "Moqups bu - ...?",
+    "javob": "veb-ilovani sayt yoki mobil ilovaning prototipini yaratish vositasi"
+  },
+  {
+    "savol": "Evristikani ko`rsating?",
+    "javob": "amaliy muammolarni hal qilishni osonlashtiradigan usullar va usullar to'plami"
+  },
+  {
+    "savol": "Funktsionallik bu...?",
+    "javob": "dastur ishlab chiquvchilari ko'pincha e'tibor beradigan omil"
+  },
+  {
+    "savol": "Nechta Vizual dizayni yaratish tamoyillari mavjud??",
+    "javob": "9.0"
+  },
+  {
+    "savol": "Fokus guruhi bu...?",
+    "javob": "bu ma'lum bir mavzu bo'yicha fikrlarini so'ragan foydalanuvchilarning norasmiy uchrashuvi"
+  },
+  {
+    "savol": "Prototip yaratish nima??",
+    "javob": "turli darajadagi ishonchlilik interfeyslarining maketlarini yaratishga imkon beradi: tezkor eskizlar va qog'oz prototiplaridan tortib, maxsus dasturlar yordamida interaktiv maketlarga"
+  },
+  {
+    "savol": "Global prototiplar bular...?",
+    "javob": "butun tizimni modellashtirish. Ulardan foydalanish foydalanuvchi interfeysining to'liqligi va izchilligi bilan bog'liq muammolarni aniqlashga imkon beradi"
+  },
+  {
+    "savol": "Storyboard bu...?",
+    "javob": "foydalanish tavsifidagi asosiy fikrlarni aks ettiruvchi eskizlar yoki skrinshotlar"
+  },
+  {
+    "savol": "Metafora nima??",
+    "javob": "real dunyo ob'ektlari yoki jarayonlarining analoglari"
+  },
+  {
+    "savol": "Tabiiy-intuitiv o'zaro ta'sir nima??",
+    "javob": "bu insonning tabiiy usullari va interfeyslari orqali kompyuter bilan o'zaro aloqalar sohasidagi evolyutsiya"
+  },
+  {
+    "savol": "SDK nima??",
+    "javob": "dasturiy ta'minotni yozish uchun ishlab chiqish to'plami"
+  },
+  {
+    "savol": "Bannerning ko`rligi nima??",
+    "javob": "foydalanuvchilar reklama kabi ko'rinadigan har qanday narsani e'tiborsiz qoldiradilar"
+  },
+  {
+    "savol": "O'z-o'ziga murojaat qilish effekti nima??",
+    "javob": "Ushbu effekt veb uchun matnlar yaratishda ayniqsa muhimdir, chunki u muallif va o'quvchi o'rtasidagi aloqani sezilarli darajada yaxshilaydi"
+  },
+  {
+    "savol": "Har qanday loyiha uchun yaxshi asos bo'lishi mumkin bo'lgan nechta ma'lumotlar arxitekturasi printsipi mabjud??",
+    "javob": "8.0"
+  },
+  {
+    "savol": "Yaroqlilikning asosiy mezonlari quyidagilardir...?",
+    "javob": "samaradorlik, samaradorlik va foydalanuvchidan qoniqish"
+  },
+  {
+    "savol": "Yaroqlilik testi bu...?",
+    "javob": "odamlar sun'iy ob'ektdan maqsadga muvofiq foydalanishlari mumkinligini aniqlash uchun o'tkazilgan tajriba, ya'ni foydalanishga yaroqlilik testi ob'ektdan foydalanishni o'lchaydi"
+  },
+  {
+    "savol": "Vazifalar paneli bu...?",
+    "javob": "ilovalar tugmachalarini joylashtiradigan paneli"
+  },
+  {
+    "savol": "Tizimdan foydalanishga nima ta'sir qiladi??",
+    "javob": "Kompyuter qulay bo'lishi uchun foydalanuvchi tizim bilan aloqa qilishda o'zini qulay his qilishi kerak"
+  },
+  {
+    "savol": "Petri tarmoqlari yordamida ierarxik dialog modelini yaratish mumkin?",
+    "javob": "4.0"
+  },
+  {
+    "savol": "Tizim darajasi bu...?",
+    "javob": "dialogni tashkil etish printsipi, dialogning dinamik tomoni"
+  },
+  {
+    "savol": "Jarayonlar darajasi nima vazifani bajaradi??",
+    "javob": "yakka jarayonlarni tavsiflaydi"
+  },
+  {
+    "savol": "Ma'lumotlar arxitekturasi nechta tushunchalarni o'z ichiga oladi??",
+    "javob": "3.0"
+  },
+  {
+    "savol": "Sayt tarkibini tahlil qilishning necha turlari mavjud??",
+    "javob": "2.0"
+  },
+  {
+    "savol": "SEOning asosiy maqsadi nima??",
+    "javob": "sayt ma'lumotlarini qidiruv mashinalari uchun imkon qadar moslashtirish hisoblanadi"
+  },
+  {
+    "savol": "Interaktiv dizayn quyidagilarning qaysi birida qo'llaniladi??",
+    "javob": "veb-saytlar, dasturiy mahsulotlar, interfeyslar, o'yinlar ishlab chiqishda"
+  },
+  {
+    "savol": "Dasturlashtirishning asosan nechta ko’rinsh bo’ladi??",
+    "javob": "2.0"
+  },
+  {
+    "savol": "Translyatorlarning asosan nechta ko’rinsh bo’ladi??",
+    "javob": "2.0"
+  },
+  { "savol": "Konteks tahlil nima??", "javob": "Tekstning taxlili" },
+  { "savol": "Kontent tahlil nima??", "javob": "Ma`lumotlar taxlili" },
+  {
+    "savol": "Saytlarda shaxsiyat tushunchasi nima??",
+    "javob": "Foydalanuvchilarning tizimni o`zlariga moslashtirishlari"
+  },
+  {
+    "savol": "Statik veb saytlar qanday saytlar??",
+    "javob": "Doimiy o`zgarmas saytlar"
+  },
+  {
+    "savol": "Dinamik veb saytlar qanday saytlar??",
+    "javob": "Doimiy o`zgaruvchan saytlar"
+  },
+  {
+    "savol": "Loyiha menejerining asosiy mahorati nimada?",
+    "javob": "Mijoz tilini mutaxassislarga tarjima qilishda"
+  },
+  {
+    "savol": "GIT nima??",
+    "javob": "Dastur kodining versiyalarini saqlash tizimi"
+  },
+  {
+    "savol": "Loyihani amalga oshirish muddatlarini kuzatib borish imkonini nimada ko’rish mumkin??",
+    "javob": "Grafik diagrammada (diagramma)"
+  },
+  {
+    "savol": "Belgilangan byudjetsiz uzoq muddatli loyiha uchun qaysi rivojlanish metodologiyasi eng yaxshisidir??",
+    "javob": "Scrum"
+  },
+  {
+    "savol": "Funktsional (texnik) vazifaning har bir bandining tavsifi qanday savollarga javob berishi kerak??",
+    "javob": "Qayerda? Nima? Qanaqasiga?"
+  },
+  {
+    "savol": "Avtomatlashtirilgan tizimlarni testlashda qaysi termin ishlatiladi??",
+    "javob": "Selenium"
+  },
+  {
+    "savol": "Yoki siz buni allaqachon qilyapsiz, yoki yaqinda qilasiz. Eng ko'p qo'llaniladigan narsalar bular….?",
+    "javob": "backup lar"
+  },
+  {
+    "savol": "Belgilangan xarajat va muddatga ega bo'lgan qisqa muddatli loyihani mutaxassislar bilan qanday tanlagan maqul ??",
+    "javob": "Autsorsing"
+  },
+  {
+    "savol": "Agar mutaxassis bunday funktsiyani amalga oshirish mumkin emasligini aytgan bo'lsa qanday yo’l tutgan maqul??",
+    "javob": "Sababini aniqlash lozim"
+  },
+  {
+    "savol": "Mijoz bilan ishlashni boshlaganingizda, ishni nimadan boshlashingiz maqul??",
+    "javob": "O'z tajribangizni \"soting\""
+  },
+  {
+    "savol": "Mijoz topshiriqlarini bajarish uchun belgilangan muddatlarni qanday belgilashi kerak??",
+    "javob": "bufer bilan belgilash shart"
+  },
+  {
+    "savol": "Loyiha menejeri nima uchun loyihada ma'lum bir funktsional yechim borligini so'ragan savoliga qanday javob berish kerak??",
+    "javob": "mantiqiy asoslash"
+  },
+  {
+    "savol": "Xizmatingiz foydalanuvchilari orasida xatolik yuzaga kelganda qanday savolga javob berish lozim??",
+    "javob": "Boshqa foydalanuvchilar ham xuddi shunday xatolikka duch kelishyaptimi?"
+  },
+  {
+    "savol": "Agar loyiha shartlari kechiktirilsa, qanday yo’l tutiladi??",
+    "javob": "Mutaxassislarni tez-tez chaqirish"
+  },
+  {
+    "savol": "Mijoz \"biz buni dastlab muhokama qildik\" argumenti bilan qo'shimcha funktsiyalarni bepul bajarishni so'rasa, loyiha menejerining qaysi javobi eng to'g'ri deb bilasiz.?",
+    "javob": "Dasturchilardan surashi"
+  },
+  {
+    "savol": "Agar mijozda shoshilinch muammo bo'lsa qanday yo’l tutishimiz lozim deb bilamiz:?",
+    "javob": "Avvallo biz mijozga tushuntiramiz, keyin kelajakda qanday qilib oldini olish bo'yicha yechimlarni beramiz."
+  },
+  {
+    "savol": "Cheklangan vaqt va ko'p miqdordagi vazifalar berilsa nima qilasiz??",
+    "javob": "Vazifalarni bajarish rejasini tuzing va ularga qatiy rioya qiling"
+  },
+  {
+    "savol": "Jamoa bilan muloqotning eng samarali shakli nimada deb o’ylaysiz??",
+    "javob": "Uchrashuvlarni amalga oshirishda"
+  },
+  {
+    "savol": "Savdo jarayonini eng muhimligi nimada?",
+    "javob": "Ehtiyojlarni aniqlashda"
+  },
+  {
+    "savol": "Loyihaning qiymatini aniqlash ko’proq nimaga bog’liq deb hisoblaysiz??",
+    "javob": "Loyihani amalga oshirish muddati va funksionalligiga"
+  },
+  {
+    "savol": "Ma'lumotlar almashishda nimani ta'minlash muhim??",
+    "javob": "Ma’lumotlarni almashtirish uchun yuklash manbasida mavjud ma’lumotlar"
+  },
+  {
+    "savol": "Jamoaning faolligni jamoaning qay bir a’zosi bilan bog’lanishini ma’qul ko’rasiz??",
+    "javob": "Jamoadagi noyob va qimmat azosi bilan (senior)"
+  },
+  {
+    "savol": "Dasturiy loyihalarini ishlab chiqishdagi muddat muammolari kimlarga bog’lik?",
+    "javob": "Dasturni ishlab chiqadigan jamoaning barcha a’zolariga"
+  },
+  {
+    "savol": "Dasturni Testlash jarayonida dastur kodlarini 6 marta o’zgartirgan bo’lsangiz qanday yo’l tutgan ma’qul deb hisoblaysiz.?",
+    "javob": "Har bir jarayon kodini saqlab borish"
+  },
+  {
+    "savol": "Loyiha menedjeri ish vaqti to’g’ri keltirilgan qatorni ko’rsating?",
+    "javob": "7 kun / 24 soat"
+  },
+  {
+    "savol": "Loyihalarning sifat ko’rsatkichi kimga ko’proq bog’liq deb o’ylaysiz??",
+    "javob": "Loyiha menedjeriga"
+  },
+  {
+    "savol": "Ishlab chiqilgan dasturiy maxsulotni teslashda kimlardan foydalanishni to’g’ri deb hisoblaysiz??",
+    "javob": "Dastur foydalanuvchilaridan"
+  },
+  {
+    "savol": "Loyiha menejeri, nima uchun loyihada ma'lum bir funktsional yechim borligini so'ragan, savolga qanday to'g'ri javob berish maqul.?",
+    "javob": "mantiqiy asoslash"
+  },
+  {
+    "savol": "Dasturiy maxsulotning yashash ssikli nima ??",
+    "javob": "Dasturiy maxsulotni ishlab chiqishdan toki undan foydalanilmagunga qadar ketgan vaqt"
+  },
+  {
+    "savol": "Dasturiy maxsulot sifat mezonini Fil Krosbi qanday ta’riflagan ??",
+    "javob": "Sifat - bu mijozlar ehtiyojini qondirish."
+  },
+  {
+    "savol": "Dasturiy maxsulot sifat mezonini Vatt Hempfrey qanday ta’riflagan ??",
+    "javob": "Sifat - bu foydalanishning ajoyib darajasiga erishishdir."
+  },
+  {
+    "savol": "Dasturiy maxsulot sifat mezoninidagi Baldridge mezoni qanday ta’riflagan ??",
+    "javob": "Mijoz tomonidan boshqariladigan sifat"
+  },
+  {
+    "savol": "Dasturiy maxsulot sifat mezoninidagi ISO 9001 sifat menejmenti tizimi qanday ta’riflagan ??",
+    "javob": "Sifat - bu o'ziga xos xususiyatlarning talablarga javob berish darajasi."
+  },
+  {
+    "savol": "Dasturiy ta’minot sifatini nazorat qilishdagi asosiy mezonlarni ko’rsating?",
+    "javob": "Sifat asosi, Sifatni boshqarish jarayoni, аmaliy mulohazalar"
+  },
+  {
+    "savol": "Joriy vaqt –?",
+    "javob": "Joriy ish uchun hisob-kitob jadvali boshlangan vaqt."
+  },
+  {
+    "savol": "Ob'ektni boshqarish qanday tartib-qoidalarni o'z ichiga oladi??",
+    "javob": "ishlarni boshlash, mavzuni rejalashtirish, mavzuni aniqlash, mavzuni tasdiqlash va mavzu sohasidagi o'zgarishlarni nazorat qilish."
+  },
+  {
+    "savol": "Loyihani boshlash bosqichi ..?",
+    "javob": "loyihani amalga oshirish jarayonida bajarish uchun mo'ljallangan hujjatlarni ishlab chiqish va tasdiqlash."
+  },
+  {
+    "savol": "WBS-tuzilmasi (loyiha ishining tarkibiy parchalanishi) nima ekanligini qanday tushunasiz??",
+    "javob": "sohadagi dispersiya sabablarini tahlil qilish uchun ishlatiladigan ramka."
+  },
+  {
+    "savol": "Xarajat omili - bu...?",
+    "javob": "biznes qiymatiga ta'sir qiluvchi vaqt ko'rsatkichi."
+  },
+  {
+    "savol": "Chizish uchun \"Aloqalarni rejalashtirish\" bosqichi kerak?",
+    "javob": "loyiha rejasi."
+  },
+  {
+    "savol": "Loyihaning barqarorligi bu ...?",
+    "javob": "loyihaning asosiy xususiyatlarining xavf parametrlarining ozgina o'zgarishiga zaif reaktsiyasi."
+  },
+  {
+    "savol": "“Taraqqiyotni baholash va ko‘rsatish” bosqichi quyidagilar uchun zarur:?",
+    "javob": "kommunikatsiyalarni boshqarish rejasini qayta ko'rib chiqish."
+  },
+  {
+    "savol": "Grafiklarni aks ettirish shakllari va vositalarini ayting:?",
+    "javob": "yuqoridagilarning barchasi."
+  },
+  {
+    "savol": "Loyihani loyihalash bosqichida eng katta xavf hisoblanadi?",
+    "javob": "pudratchilar."
+  },
+  {
+    "savol": "Resurslar qanday tasniflanadi??",
+    "javob": "mehnat va mehnatdan tashqari."
+  },
+  {
+    "savol": "Ekonomik stabillikni tasdiqlash uchun … kerak.?",
+    "javob": "zarar ko`rmaslik nu`tasi sotuv korsatkichi nuktasidan kichik nuqtasida ishlab chi`arish, Zarar kormaslik nuqtasidan qancha uzoqrok bo`lsa shunchalik proyekt stabil bo`ladi."
+  },
+  {
+    "savol": "Zarar ko'rmaslik nuqtasi quyidagilarni harakterlaydi:?",
+    "javob": "Mahsulotdan kelgan foyda nolga teng bo'lgan holatdagi sotuv hajmi."
+  },
+  {
+    "savol": "Loyiha jamoasi va \"Loyihani boshqarish jamoasi\" tushunchalarini taqqoslang:?",
+    "javob": "ba'zan mos keladi."
+  },
+  {
+    "savol": "Loyihaning hayot sikli nimadan iborat??",
+    "javob": "uni amalga oshirish jarayonida operatsiyalar majmui"
+  },
+  {
+    "savol": "“Kommunikatsiyalarni rejalashtirish” bosqichini amalga oshirish natijasi nima??",
+    "javob": "loyiha hisobotlari."
+  },
+  {
+    "savol": "Analoglar usuli …… ga asoslanadi.?",
+    "javob": "amalga oshirilgan loyihalar tajribasi."
+  },
+  {
+    "savol": "Loyihani boshqarish metodologiyasida loyiha degani?",
+    "javob": "loyiha-smeta hujjatlari majmui."
+  },
+  {
+    "savol": "Kritik yo'l kechiktirilsa nima sodir bo'ladi??",
+    "javob": "hech qanday o'zgarishlar bo'lmaydi."
+  },
+  {
+    "savol": "Ishni keyingi ishning erta boshlanishini kechiktirmasdan kechiktirish mumkin bo'lgan vaqt:?",
+    "javob": "vaqt zaxirasi."
+  },
+  {
+    "savol": "Loyihada qatnashuvchilar :?",
+    "javob": "Loyihada bevosita ishtirok etuvchi yoki loyihani amalga oshirish jarayonida manfaatlariga daxldor boʻlishi mumkin boʻlgan jismoniy va yuridik shaxslar"
+  },
+  {
+    "savol": "Loyihani boshlash - bu loyihani boshqarish jarayonining bosqichi bo'lib, buning natijasida:?",
+    "javob": "Loyihaning boshlanishi ruxsat etiladi."
+  },
+  {
+    "savol": "Loyiha ishtirokchilarining o'zaro kelishuvga asoslangan va foydali, lekin kapital talab qiluvchi loyihani amalga oshirishga qaratilgan vaqtinchalik ixtiyoriy birlashmasi qanday nomlanadi??",
+    "javob": "Konsortsium"
+  },
+  {
+    "savol": "Loyihaning hayot aylanishining yakuniy bosqichi qabul qilish testlari va ..?",
+    "javob": "Tajribali eksplatuatsiyalash"
+  },
+  {
+    "savol": "Quyidagilardan qaysi biri loyihani moliyalashtirish shakllaridan biri emas?",
+    "javob": "Qarz oluvchiga cheksiz to'liq murojaat qilish bilan moliyalashtirish"
+  },
+  {
+    "savol": "Quyidagilardan qaysi biri faoliyatning muayyan sohalari uchun loyiha menejerining asosiy funktsiyalariga taalluqli emas.?",
+    "javob": "Loyiha hujjatlarini yaratish va uni buyurtmachi bilan tasdiqlash."
+  },
+  {
+    "savol": "Ta'rif berilgan atamani tanlang: \"amalga oshirish uchun loyihalarni tanlaydigan, ish rejalari va ularga o'zgartirishlarni tasdiqlaydigan, kuratorni tayinlaydigan va loyiha menejerini tasdiqlaydigan jamoaviy organ\".?",
+    "javob": "Muvofiqlashtiruvchi kengash"
+  },
+  {
+    "savol": "Loyihani amalga oshirishdagi tavakkalchilik?",
+    "javob": "uni amalga oshirish noaniq bo'lgan holatlarda kutilayotgan daromadni yo'qotish shaklida salbiy moliyaviy oqibatlarning yuzaga kelish ehtimoli."
+  },
+  {
+    "savol": "To’gri ta’rifni tanlang: loyihalar dasturi?",
+    "javob": "umumiy maqsad va ularni amalga oshirish shartlari bilan birlashtirilgan o'zaro bog'liq loyihalar va turli tadbirlar guruhi"
+  },
+  {
+    "savol": "“Loyihaning hayot tsikli” ta’rifini tanlang.?",
+    "javob": "ketma-ket bosqichlar to'plami, ularning soni va tarkibi loyihada ishtirok etayotgan tashkilot yoki tashkilotlar tomonidan loyihani boshqarish ehtiyojlari bilan belgilanadi."
+  },
+  {
+    "savol": "Risklarni boshqarishda quyidagi risklardan qaysi biri ichki hisoblanadi??",
+    "javob": "iqtisodiy"
+  },
+  {
+    "savol": "Mijozga topshiriqning holati haqidagi har bir xabar quyidagi so'rovlarga javob berishi kerak?",
+    "javob": "Qayerda? Nima? Qanaqasiga?"
+  },
+  {
+    "savol": "Qanday qilib siz yaxshi loyiha menejeri bo'lishingiz mumkin??",
+    "javob": "Dasturiy ta'minotning so'nggi yangiliklarini kuzatib boriganda va ularni jamoangiz ishiga tatbiq etganda, mijozni faqat muhim masalalar bo'yicha bog'lganda, yetkazib berishdan keyin mijozning xohishiga ko'ra uchrashuvga borganda, chunki \"mijoz har doim haq\" va boshqalarga qaraganda faol bo’lganda."
+  },
+  {
+    "savol": "Loyihalarni ishlab chiqishda eng to’g’ri taqsimotni tanlang?",
+    "javob": "Mavjud loyihalarni tahlil qilish va hujjatlashtirish 40%, Dasturni ishlab chiqish 20%, testlash va mavjud muammolarni bartaraf etish 40%"
+  },
+  {
+    "savol": "Dasturiy loyihalarni baholashda nimalar muhim deb hisoblaysiz.?",
+    "javob": "Dastur funksionalligiga, ishlab chiqishga ketadigan vaqtga va jamodagi dasturchilar darajasiga"
+  },
+  {
+    "savol": "Loyiha boshqaruvi deganda nima tushuniladi??",
+    "javob": "rejalashtirilgan rejalarni amalga oshirishni ta'minlaydigan ta'sirlarni shakllantirish."
+  },
+  {
+    "savol": "Vaqtinchalik parametrlar bo'yicha loyihani boshqarish jarayoniga nima kiradi??",
+    "javob": "vaqtinchalik parametrlar bo'yicha loyihani boshqarish, loyihani taqvimiy rejalashtirish, loyihani buxgalteriya hisobi, loyihani tahlil qilish va tartibga solish, vaqtinchalik parametrlar bo'yicha loyihani yopish."
+  },
+  {
+    "savol": "Loyihalarni boshqarish dasturiy tizimlarini ko’rsating:?",
+    "javob": "Open Plan, MS Project, Primavera Project Planner, Spider Project, Time Line ++"
+  },
+  {
+    "savol": "Boshqaruvchining loyihani shakllantirish va yaratish jarayonida asosiy vazifasi bo’lib hisoblanadi:?",
+    "javob": "bir maqsad va qadriyat asosida turli xil tashkiliy va kasbiy savodxonlikka ega bo’lgan odamlardan tashkil topgan, birikkan guruh shakllantirish."
+  },
+  {
+    "savol": "Initsiatsiya bu -?",
+    "javob": "Loyihani bajarish boshidagi yoki uning biron bir navbatdagi fazasida maqsadga tayanish jarayoni."
+  },
+  {
+    "savol": "Loyihani analiz qilish fazasi -?",
+    "javob": "Loyihani muvaffaqiyatli amalga oshirilishini ta’minlash maqsadida ta’sir etuvchi omillarni rejalashtirish"
+  },
+  {
+    "savol": "Gant diagrammasi nima??",
+    "javob": "gorizontal chiziqli diagrammasi loyiha vazifalarini boshlanish va tugash sanalari bunday taqshqati boshqa vaqt parametrlari bilan tavsiflangan vaqt oraliqlari bilan ifodalanadi."
+  },
+  {
+    "savol": "Loyihani boshqarish axborot tizimining vazifalari va xususiyatlarini ayting:?",
+    "javob": "yuqoridagilarning barchasi."
+  },
+  {
+    "savol": "Qiymatlarni boshqarishning 4 ta asosiy tamoyillarini sanab o‘ting:?",
+    "javob": "o'z vaqtida, tejamkorlik, asosiy yo'nalishlar, strategiyalar va tuzilmalar."
+  },
+  {
+    "savol": "Investitsion risk turi va uning ta'rifi o'rtasidagi muvofiqlikni ko'rsating (selektiv guruch)?",
+    "javob": "qimmatli qog'ozni sotishda uning sifatini baholashning o'zgarishi natijasida yo'qotish ehtimoli bilan bog'liq xavf."
+  },
+  {
+    "savol": "Loyiha maqsadi – bu :?",
+    "javob": "Talablardan kelib chiqqan holdagi qo’yilgan umumiy baho va Loyihani tugallashdagi oxir"
+  },
+  {
+    "savol": "Loyihani amalga oshirish - bu:?",
+    "javob": "O'z maqsadlariga erishishga qaratilgan loyihada tasvirlangan barcha harakatlarning kompleks bajarilishi"
+  },
+  {
+    "savol": "Loyiha jarayon faoliyatidan quyidagilar bilan farq qiladi:?",
+    "javob": "Jarayonlar bir xil turga mansub va tsiklik hiosblanadi, loyiha maqsadi va amalga oshirish usullari bo'yicha noyobdir, shuningdek, aniq boshlanish va tugash sanalariga ega"
+  },
+  {
+    "savol": "Qabul qilingan qiymat usuli quyidagilarga imkon beradi:?",
+    "javob": "Loyihaning ortda qolayotganini yoki muddatidan oldin ekanligini aniqlang, shuningdek, loyiha byudjetidagi ortiqcha xarajatlar yoki tejamkorlikni hisoblang"
+  },
+  {
+    "savol": "Eng muhim bosqich nima??",
+    "javob": "Loyihani amalga oshirishdagi muhim voqea, uni amalga oshirish jarayonini kuzatish uchun foydalaniladi"
+  },
+  {
+    "savol": "Loyihaning predmet sohasi nima??",
+    "javob": "Loyihani amalga oshirish natijasida ishlab chiqarish (amalga oshirish) ta'minlanishi kerak bo'lgan loyihalash ishlarining hajmi va ularning mazmuni, tovarlar va xizmatlar to'plami"
+  },
+  {
+    "savol": "Investitsiya loyihasini amalga oshirish to'g'risida qaror qabul qilish jarayonida qanday omillarni hisobga olish kerak??",
+    "javob": "Inflyatsiya, xatarlar, muqobil investitsiya imkoniyatlari"
+  },
+  {
+    "savol": "Loyihani amalga oshirish uchun amalga oshirilgan ishlarni nazorat qilish usuli nima, bu tugallanmagan ishlar uchun ba'zi oraliq natijalarni qayd etish imkonini beradi.?",
+    "javob": "50 dan 50 gacha"
+  },
+  {
+    "savol": "Loyihalarni moliyalashtirishning uchta usuli: o'z-o'zini moliyalashtirish, qarz olish va ..?",
+    "javob": "Jalb qilingan"
+  },
+  {
+    "savol": "Kirish xabarlari to'gri ko'rsatilgan qatorni ko'rsating:?",
+    "javob": "kirish vositalari (klaviatura, manipulyatorlar, masalan, \"sichqoncha\" va boshqalar) yordamida odam tomonidan yaratilgan"
+  },
+  {
+    "savol": "Chiqish xabarlari to'gri ko'rsatilgan qatorni ko'rsating?",
+    "javob": "kompyuter tomonidan matnlar, ovozli signallar va / yoki tasvirlar shaklida hosil qilingan va foydalanuvchi monitor ekranida yoki boshqa ma'lumotlarni chiqaruvchi qurilmalarda ko'rsatiladigan"
+  },
+  {
+    "savol": "Kartalarni saralash usuli bu?",
+    "javob": "bu ma'lumotni guruhlarga bo'lish uchun foydalaniladigan oddiy, ishonchli va arzon foydalanuvchilarni o'rganish usuli"
+  },
+  {
+    "savol": "Raqobatchilar tahlili deganda nimani tushunasiz ??",
+    "javob": "dasturiy mahsulotlar yoki xizmatlarning kuchli va kuchsiz tomonlarini aniqlashga imkon beradigan sodda, arzon va samarali usul, prognoz qilinganga o'xshash, ammo bozorda allaqachon mavjud"
+  },
+  {
+    "savol": "Mahalliy prototiplar to`g`ri keltirilgan qatorni toping.?",
+    "javob": "tizimning faqat kichik qismini modellashtirish. Ular yordamida turli xil dizayn variantlarini taqqoslash orqali fikrlar farqini hal qilish uchun foydalanish mumkin: bir nechta muqobil variantlarni yaratish va ularni baholash kifoya"
+  },
+  {
+    "savol": "Gorizontal prototiplar bular...?",
+    "javob": "prototipdagi funktsiyalarning to'liqligi va imkoniyatlari doirasiga e'tibor qarating"
+  },
+  {
+    "savol": "Videoning prototipi bu...?",
+    "javob": "mo'ljallangan bir yoki bir nechta vazifalarni bajarayotgan odamlarning video lavhalari"
+  },
+  {
+    "savol": "Talablarni boshqarish nima uchun muhim? ______ o'zgarishi tufayli.?",
+    "javob": "aytilganlarning barchasida"
+  },
+  {
+    "savol": "Mahsulot talablarini boshqarishda qaysi ikkita talabga ustunlik beriladi??",
+    "javob": "Bardoshli va O'zgaruvchan (Enduring & Volatile)"
+  },
+  {
+    "savol": "SRS faqat va agar shunday bo'lsa, mos keladi deb aytiladi?",
+    "javob": "unda tasvirlangan individual talablarning hech qanday kichik to'plami bir-biriga zid kelmaysi"
+  },
+  {
+    "savol": "FAST (Facilitated Application Specification Techniques) yig'ilishini kim boshqaradi??",
+    "javob": "Fasilitator"
+  },
+  {
+    "savol": "QFD talablarini yodda tutgan holda, quyidagilardan qaysi biri kutilayotgan talabga misol emas??",
+    "javob": "Maxsus tizim funktsiyalari"
+  },
+  {
+    "savol": "Tashlanadigan prototip evolyutsion prototipdan nimasi bilan farq qiladi??",
+    "javob": "Bu faqat bitta vazifani o'z ichiga oladi"
+  },
+  {
+    "savol": "Nima uchun talablarni aniqlash qiyin ish??",
+    "javob": "Barcha qayd etilganlar"
+  },
+  {
+    "savol": "Ishonchlilikning to'rtta o'lchovi qanday??",
+    "javob": "Mavjudlik, Ishonchlilik, Xavfsizlik, Xavfsizlik"
+  },
+  {
+    "savol": "FAST kengaytmasi qanday??",
+    "javob": "Facilitated Application Specification Technique - Osonlashtirilgan dastur spetsifikatsiyasi texnikasi"
+  },
+  {
+    "savol": "IEEE IEEE 830-1993 standartini taqdim etadi. Ushbu standart qaysi faoliyat uchun tavsiya etilgan standart??",
+    "javob": "Dasturiy ta'minot talabining spetsifikatsiyasi"
+  },
+
+  {
+    "savol": "Kompyuter dasturlari va ularga tegishli hujjatlar birgalikda … deyiladi?",
+    "javob": "dasturiy ta'minot"
+  },
+  {
+    "savol": "Dasturiy mahsulot yaratishga olib keladigan jarayonlar majmui?",
+    "javob": "Dasturiy ta'minotni ishlab chiqish jarayoni"
+  },
+  {
+    "savol": "CASE iborasi nimani anglatadi??",
+    "javob": "Computer-Aided Software Engineering"
+  },
+  {
+    "savol": "Qaysi bo'lim dasturiy ta’minotni konstruksiyalash jarayoniga kirmaydi?",
+    "javob": "konstruksiyalash g'oyalari"
+  },
+  {
+    "savol": "… - bu dasturiy ta'minot tizimining bir qismi bo'lgan funksiya, protsedura yoki sinfdir.?",
+    "javob": "Modul"
+  },
+  {
+    "savol": "Prototip – ?",
+    "javob": "bu ma'lum funktsiyalar to'plamini amalga oshiradigan tizimning ishchi versiyasidir."
+  },
+  {
+    "savol": "Quyidagilardan qaysi biri dasturiy ta'minotni ishlab chiqish standarti emas?",
+    "javob": "Dasturchilar standartlari"
+  },
+  {
+    "savol": "Dasturiy ta'minot tizimining murakkabligini aniqlash uchun uzunlik ko'rsatkichi qaysi formula bo'yicha hisoblanadi?",
+    "javob": ""
+  },
+  {
+    "savol": "Dasturiy ta'minot tizimining murakkabligini aniqlash uchun hajm ko'rsatkichini qanday formula hisoblab chiqadi?",
+    "javob": ""
+  },
+  {
+    "savol": "Dastur kodini takomillashtirish … deyiladi?",
+    "javob": "Refaktoring"
+  },
+  {
+    "savol": "Dasturiy ta’minotga yangi funksionallik qo'shish?",
+    "javob": "Reinjiniring"
+  },
+  {
+    "savol": "Refaktoring - bu …?",
+    "javob": "dasturning tashqi xatti-harakatlariga ta'sir qilmasdan uning ichki tuzilishini o'zgartirish jarayoni bo’lib, uning qanday ishlashini tushunishni osonlashtirish uchun mo'ljallangan."
+  },
+  {
+    "savol": "Reinjiniring – bu …?",
+    "javob": "ishlayotgan dasturiy ta'minotda yangi funksionalliklarni yaratish yoki global o'zgarishlar orqali xatolarni tuzatish jarayoni"
+  },
+  {
+    "savol": "Dasturiy ta'minotni konstruktsiyalash - bu ...?",
+    "javob": "dasturiy ta'minot tizimini batafsil yaratish jarayoni."
+  },
+  {
+    "savol": " Dasturiy ta'minot evolyutsiyasi …?",
+    "javob": "dasturiy ta'minotni rivojlantirish jarayoni"
+  },
+  {
+    "savol": "Dasturiy ta'minotni ishlab chiqish tamoyillariga nimalar kirmaydi?",
+    "javob": "Sotish"
+  },
+  {
+    "savol": "Dasturiy ta'minotning hayot aylanishining paradigmalari va modellari?",
+    "javob": "Kaskadli; Inkrementli; V-shaklidagi; Evolyutsion (spiral); Komponentga yo'naltirilgan"
+  },
+  {
+    "savol": "Dasturiy ta'minotni ishlab chiqishga qanday yondashish usuli ilmiy-texnikaviy muammolarni hal qilish uchun dasturlarni yaratish uchun mo'ljallangan?",
+    "javob": "dasturiy ta'minot tomonidan bajariladigan funktsiyalar (vazifalar) asosida loyihalash;"
+  },
+  {
+    "savol": "Ma'lumotlarni qayta ishlash tizimlarini loyihalashda dasturiy ta'minotni ishlab chiqishga qanday yondashish usuli qo'llaniladi?",
+    "javob": "ma'lumotlar oqimini o'rganish asosida loyihalash; "
+  },
+  {
+    "savol": "Ma'lumotlar bazasini loyihalashda dasturiy ta'minotni ishlab chiqishga qanday yondashish usuli qo'llaniladi?",
+    "javob": "ma'lumotlar tuzilmasiga asoslangan loyihalash;"
+  },
+  {
+    "savol": "Dasturlash tillari translyatorlarini ishlab chiqishda dasturiy ta'minotni ishlab chiqishga qanday yondashish usuli qo'llaniladi?",
+    "javob": "abstrakt ma'lumotlar turlariga asoslangan dizayn;"
+  },
+  {
+    "savol": "ob'ektga yo'naltirilgan yondoshuv quyidagilarni o'z ichiga OLMAYDI?",
+    "javob": "ob'ektga yo'naltirilgan test"
+  },
+  {
+    "savol": "Funktsional dekompozitsiya usuli diagrammasining IPO qisqartmasi nimani anglatadi??",
+    "javob": "Input-Processing-Output"
+  },
+  {
+    "savol": "Ob'ekt o'z ichiga oladi?",
+    "javob": "ma'lumotlar va protseduralar"
+  },
+  {
+    "savol": "Ob'ektga yo'naltirilgan yondashuvning qaysi bosqichida predmet sohasini o'rganish orqali unda qaysi ob'ektlar muhimligi, ular qanday o'zaro ta'sir qilishlari aniqlanadi.?",
+    "javob": "ob'ektga yo'naltirilgan tahlil"
+  },
+  {
+    "savol": "Ob'ektga yo'naltirilgan yondashuvning qaysi bosqichida ular o'rtasida uzatiladigan ob'ektlar va xabarlar nuqtai nazaridan kelajakdagi dasturiy ta'minot majmuasi loyihasi yaratiladi.?",
+    "javob": "ob'ektga yo'naltirilgan loyihalash"
+  },
+  {
+    "savol": "Ob'ektga yo'naltirilgan dasturlash vositalariga ega bo'lgan dasturlash tilida loyihani amalga oshirish ob'ektga yo'naltirilgan yondashuvning qaysi bosqichida amalga oshiriladi?",
+    "javob": "ob'ektga yo'naltirilgan dasturlash"
+  },
+  {
+    "savol": "Nosozliklarni tuzatish?",
+    "javob": "dasturda xato mavjudligi ma'lum bo'lganda muammolarni bartaraf etish jarayoni"
+  },
+  {
+    "savol": "Dastur yaratishning qaysi bosqichida sintaktik xatolar yuzaga keladi??",
+    "javob": "dasturlash"
+  },
+  {
+    "savol": "Xatoliklarni lokalizatsiya qilish?",
+    "javob": "xatolik joyini aniqlash"
+  },
+  { "savol": "Sinov maqsadi?", "javob": "dastur ishonchliligini oshirish" },
+  {
+    "savol": "Ko'p mumkin bo'lgan variantlardan eng yaxshisini topish?",
+    "javob": "optimallashtirish"
+  },
+  {
+    "savol": "Dasturni ishlab chiqishda eng ko'p vaqt talab qiladigan qadam?",
+    "javob": "sinovdan o'tkazish"
+  },
+  {
+    "savol": "Dasturning hayot tsiklidagi eng ko'p vaqt talab qiladigan bosqich?",
+    "javob": "kuzatib borish"
+  },
+  {
+    "savol": "Dasturning hayot aylanishining birinchi bosqichi?",
+    "javob": "talablarni shakllantirish"
+  },
+  { "savol": "Dastur sifatining eng muhim mezoni?", "javob": "ishlash" },
+  { "savol": "Ishonchlilikni baholash usuli?", "javob": "sinovdan o'tkazish" },
+  {
+    "savol": "Dasturlashning instrumental vositalari?",
+    "javob": "kompilyatorlar, tarjimonlar"
+  },
+  {
+    "savol": "Asosiy WATEFALL (kaskad modeli) metodologiyasining tamoyillari.?",
+    "javob": "Aniq hujjatlar; Ishning keyingi bosqichi avvalgisi tugamaguncha boshlanmaydi; Kechiktirilgan sinov"
+  },
+  {
+    "savol": "RAD (Rapid Application Development) metodologiyasining asosiy tamoyillari quyidagilardir?",
+    "javob": "Ishlab chiqishning iterativ yondashuvi; Vaqt xarajatlarini minimallashtirish; Prototiplash; Ishlab chiqish davriyligi; Hamkorlik tamoyillaridir"
+  },
+  {
+    "savol": "Bloklar va ular orasidagi interfeyslarni loyihalashga asoslangan Ericsson yondashuvining muallifi kim (1967)?",
+    "javob": "Ivar Jeykobson - yondashuv muallifidir"
+  },
+  {
+    "savol": "Arxitektura va iterativ ishlab chiqishni ta'kidlovchi «Objectory AB» yondashuv muallifi kim (1995)?",
+    "javob": "Gradi Butch - yondashuv muallifidir"
+  },
+  {
+    "savol": "dasturiy ta'minotni ishlab chiqishda vazifalar va mas'uliyatni taqsimlashning universal metodologiyasi.?",
+    "javob": "Rational Unified Process (RUP) - metodologiyasidir"
+  },
+  {
+    "savol": "RUP (Rational Unified Process) metodologiyasining asosiy tamoyillari quyidagilardir?",
+    "javob": "Ishlab chiqishning iterativ modeli; Talablarni boshqarish; Komponentli arxitektura; Dasturiy ta'minotni vizual modellashtirish; Dasturiy ta'minot sifatini tekshirish; Kiritilgan o'zgartirishlarni nazorat qilish tamoyillaridir"
+  },
+  {
+    "savol": "RUP metodologiyasining qaysi tamoyili loyihaning har bir bosqichida xavflarni bartaraf etishni nazarda tutadi?",
+    "javob": "Ishlab chiqishning iterativ modeli tamoyilidir"
+  },
+  {
+    "savol": "RUP metodologiyasining qaysi tamoyillari funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul yechimlarni tanlash jarayonining tavsifini beradi?",
+    "javob": "metodologiyaning talablarni boshqarish tamoyilidir"
+  },
+  {
+    "savol": "RUP metodologiyasining qaysi tamoyili tizim arxitekturasini joriy va kelajakdagi loyihalarda ishlatilishi mumkin bo'lgan tarkibiy qismlarga ajratishni nazarda tutadi.?",
+    "javob": "metodologiyaning komponentli arxitektura tamoyilidir"
+  },
+  {
+    "savol": "RUP metodologiyasining qaysi tamoyili arxitektura va uning tarkibiy qismlarining tuzilishi va xatti-harakatlarini tushunish uchun dasturiy ta'minotning vizual modelini yaratishni nazarda tutadi.?",
+    "javob": "metodologiyaning dasturiy ta’minotni vizual modellashtirish tamoyilidir"
+  },
+  {
+    "savol": "RUP metodologiyasining qaysi tamoyili dasturiy ta'minotni ishlab chiqish jarayonida jamoa harakatlarining sifatini nazorat qilishni ta'minlaydi?",
+    "javob": "metodologiyaning dasturiy ta'minot sifatini tekshirish tamoyilidir"
+  },
+  {
+    "savol": "RUP metodologiyasining qaysi tamoyillari nazarda tutilgan uzluksiz ivojlanish jarayonini qurish imkonini beruvchi o'zgarishlarni kuzatish.?",
+    "javob": "metodologiyaning kiritilgan o'zgarishlarni nazorat qilish bosh tamoyilidir"
+  },
+  {
+    "savol": "RUP metodologiyasining arxitekturasi nechta va qaysi qismlardan iborat?",
+    "javob": "2 ( statik va dinamik ) qismlardan iboratdir"
+  },
+  {
+    "savol": "RUP metodologiyasi arxitekturasining gorizontal o'lchami ifodalaydi?",
+    "javob": "dinamik o'lchamni ko’rsatishdir"
+  },
+  {
+    "savol": "RUP metodologiyasi arxitekturasining vertikal o'lchami ifodalaydi?",
+    "javob": "statistik o'lchamni namoyon etishdir"
+  },
+  {
+    "savol": "RUP metodologiyasi arxitekturasining dinamik yoki vaqtinchalik o'lchamiga nima tegishli ?",
+    "javob": "Hayotiy tsikl, bosqichlar (phases), takrorlashlar, nazorat nuqtalari(milestones) tegishlidir"
+  },
+  {
+    "savol": "RUP metodologiyasi arxitekturasining statik o'lchamiga nima tegishli ?",
+    "javob": "Ijrochilarning rollari (roles), vazifalar (activity), harakatlar natijalari (artifacts), ish jarayonlari (workflows), fanlar (disciplines) tegishlidir"
+  },
+  {
+    "savol": "RUP arxitekturasining dinamik tuzilishi?",
+    "javob": "Loyiha boshlanishi bosqichi(Inception) , ishlab chiqish bosqichi(Elaboration), Konstruktsiyalash bosqichi (Construction), Uzatish bosqichi (Transition) larni aks ettirishdir"
+  },
+  {
+    "savol": "RUP arxitekturasining statik tuzilishi?",
+    "javob": "Asosiy va yordamchi jarayonlar: biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation) , sinovdan o'tkazish (Testing), joylashtirish (Deployment), sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management)larni aks ettirishdir."
+  },
+  {
+    "savol": "RUP metodologiyasining asosiy jarayonlari quyidagilarni o'z ichiga oladi?",
+    "javob": "biznes modellarini yaratish (Business Modeling), talablarni aniqlash (Requirements), tahlil va loyihalash (Analysis and Design), Amalga oshirish (Implementation) , sinovdan o'tkazish (Testing), joylashtirish (Deployment) tegishlidir"
+  },
+  {
+    "savol": "RUP metodologiyasini qo'llab-quvvatlovchi jarayonlar o'z ichiga oladi?",
+    "javob": "sozlash va o'zgartirishni boshqarish (Configuration and Change Management), loyiha boshqaruvi (Project Management), infratuzilmani (atrof-muhitni) boshqarish (Environment Management) lar tegishlidir"
+  },
+  {
+    "savol": "RUP fazasi bosqichlari. Ushbu bosqichning asosiy maqsadi loyihaning maqsadlari bo'yicha barcha manfaatdor tomonlar o'rtasida murosaga erishishdir.?",
+    "javob": "Loyiha boshlanishi bosqichidir(Inception)"
+  },
+  {
+    "savol": "RUP fazasi bosqichlari. Ushbu bosqichning asosiy maqsadi asosiy, eng muhim talablar asosida tizimga yuklangan vazifalarni hal qilishga imkon beruvchi va keyinchalik tizimni ishlab chiqish uchun asos sifatida foydalaniladigan barqaror asosiy mahsulot arxitekturasini ishlab chiqish.?",
+    "javob": "Ishlab chiqish bosqichidir(Elaboration)"
+  },
+  {
+    "savol": "RUP fazasi bosqichlari. Ushbu bosqichning asosiy maqsadi ilgari ishlab chiqilgan arxitektura asosida talablarni batafsil tushuntirish va ularni qondiradigan tizimni ishlab chiqish?",
+    "javob": "Konstruktsiyalash bosqichidir(Construction)"
+  },
+  {
+    "savol": "RUP fazasi bosqichlari. Ushbu bosqichning asosiy maqsadi tizimni oxirgi foydalanuvchilar uchun to'liq foydalanish imkoniyatini yaratish.?",
+    "javob": "Uzatish bosqichidir(Transition)"
+  },
+  {
+    "savol": "RUP ish mahsulotini ishlab chiqish jarayonida ijrochilar toifasi?",
+    "javob": "biznes tahlilchisi, biznesni ishlab chiquvchi, ekspert vakili toifalaridir"
+  },
+  {
+    "savol": "RUP ……. ta asosiy tamoyilga asoslanadi.?",
+    "javob": "6 ta tamoyilga ega"
+  },
+  {
+    "savol": "RUP ning asosiy tamoyillari?",
+    "javob": "iterativ rivojlanish modeli, talablarni boshqarish, komponent arxitekturasi, vizual dasturiy ta'minotni modellashtirish, dasturiy ta'minot sifatini tekshirish, nazoratni o'zgartirishdir"
+  },
+  {
+    "savol": "RUP ning iterativ rivojlanish modeli tamoyili?",
+    "javob": "loyihaning har bir bosqichida xatarlarni bartaraf etish muammoni yaxshiroq tushunish va maqbul yechim topilmaguncha kerakli o'zgarishlarni amalga oshirishdir"
+  },
+  {
+    "savol": "RUP ning talablarni boshqarish tamoyili?",
+    "javob": "RUP funktsional talablarni tashkil etish va kuzatish, hujjatlarni rasmiylashtirish va maqbul echimlarni tanlash jarayonini tavsiflash imkoniyatiga ega"
+  },
+  {
+    "savol": "RUP ning komponent arxitekturasi tamoyili?",
+    "javob": "tizim arxitekturasi joriy va kelajakdagi loyihalarda qo‘llanilishi mumkin bo‘lgan komponentlarga ega"
+  },
+  {
+    "savol": "RUP ning vizual dasturiy ta'minotni modellashtirish tamoyili?",
+    "javob": "RUP ishlab chiqish metodologiyasini ko'rsatadi arxitektura va uning tarkibiy qismlarining tuzilishi va xatti-harakatlarini tushunish uchun dasturiy ta'minotning vizual modelini yaratishdir"
+  },
+  {
+    "savol": "RUP ning dasturiy ta'minot sifatini tekshirish tamoyili?",
+    "javob": "dasturiy ta'minotni ishlab chiqish jarayonida jamoaning barcha harakatlarining sifatini nazorat qilishdir"
+  },
+  {
+    "savol": "RUP ning nazoratni o'zgartirish tamoyili?",
+    "javob": "o'zgarishlarni kuzatish uzluksiz rivojlanish jarayonini qurish imkonini berishdir"
+  },
+  {
+    "savol": "RUP jarayonlari . Atrof-muhit (dizayn muhitini boshqarish)?",
+    "javob": "tahlil qilish, loyihalash, ishlab chiqish, sinov vositalarini yaratish va qo'llab-quvvatlashga jarayonlariga ega"
+  },
+  {
+    "savol": "Yaratilgan, o'zgartirilgan yoki biron bir jarayonda ishlatiladigan obyekt (ma'lumotlar hajmi) deyiladi?",
+    "javob": "Ishchi mahsulot (artifakt) ma’nosiga ega"
+  },
+  {
+    "savol": "Rol ijrochisining ish birligi deyiladi?",
+    "javob": "Harakat (Activity) ma’nosiga ega"
+  },
+  {
+    "savol": "Muhim natijaga (ish mahsuloti) erishishga qaratilgan harakatlar ketma-ketligi va ijrochilar (rollar) toifalarining o'zaro ta'sirini tavsiflash.?",
+    "javob": "Ishchi jarayon (workflows) ma’nosiga ega"
+  },
+  {
+    "savol": "Dasturiy ta’minotni testlash (software testing) – bu …?",
+    "javob": "dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirishdir"
+  },
+  {
+    "savol": "Tekshirish (Verification) – bu …?",
+    "javob": "tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir."
+  },
+  {
+    "savol": "Validasiya (Validation) – bu …?",
+    "javob": "ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlashdir"
+  },
+  {
+    "savol": "Testlashni rejalashtirish (Test Plan) – bu?",
+    "javob": "testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjatdir"
+  },
+  {
+    "savol": "Bag/Defekt Report (Bug Report) - bu …?",
+    "javob": "testlash obyektini noto’g’ri ishlashiga olib kelgan harakatlar ketma-ketligi yoki shu holatga olib kelgan vaziyatlarni izohi bo’lib unda kelib chiqish sabablari va kutilayotgan natijalar keltirilgan xujjatdir."
+  },
+  {
+    "savol": "Testni Qoplanishi (Test Coverage) – bu …?",
+    "javob": "testlash sifatini baholash mezonlaridan biri, bajariladigan kodning yoki talablarni testlar yordamida qoplanishidir."
+  },
+  {
+    "savol": "DT ni testlash darajalari ?",
+    "javob": "alohida modul ustida, bir guruh modullar yoki butun tizim ustida tekshirilishdir"
+  },
+  {
+    "savol": "DT ning sifati –?",
+    "javob": "bahoni to’g’ri ekanligini kafolatlashdir"
+  },
+  {
+    "savol": "DTni testlash tiplari quyidagi guruhlarga bo’linadi:?",
+    "javob": "funksional, funksional bo’lmagan, o’zgarishlar bilan bog’liq bo’lgan guruhlarga ega"
+  },
+  {
+    "savol": "Funksional testlash turlari?",
+    "javob": "xavfsizlikka testlash, hamkorlikni testlash turlariga ega"
+  },
+  {
+    "savol": "Funksional bo’lmagan testlash turlari (unumdorligi)?",
+    "javob": "yuklamali testlash, stressga testlash, hajmli testlash turlariga ega"
+  },
+  {
+    "savol": "Xavfsizlikni testlash - bu?",
+    "javob": "testlash strategiyasi bo’lib, tizimni xavfsizligini tekshirish uchun qo’llanilishidir"
+  },
+  {
+    "savol": "RUP ( Rational Unified Process ) metodologiyasining mualliflari?",
+    "javob": "Ivar Jeykobson, Gradi Batch, Jeyms Rumbaugh mualliflardir"
+  },
+  {
+    "savol": "SCRUM metodologiyasining mualliflari (loyihalarni boshqarishning inqilobiy usuli).?",
+    "javob": "Jeff Sazerlend va Ken Shvaber metodologiya mualliflaridir"
+  },
+  {
+    "savol": "XP metodologiyasining (ekstremal dasturlash) mualliflari?",
+    "javob": "Kent Bek, Uord Kanningem, Martin Fauler metodologiya asoschilaridir"
+  },
+  {
+    "savol": "Dasturiy ta'minotni himoya qilish – …?",
+    "javob": "dasturiy ta'minotni ruxsatsiz olish, foydalanish, tarqatish, o'zgartirish, o'rganish va analoglarini qayta qurishdan himoya qilishga qaratilgan chora-tadbirlar majmuidir"
+  },
+  {
+    "savol": "Dasturlardan ruxsatsiz foydalanishdan himoya qilish – …?",
+    "javob": "dasturiy ta'minotdan noqonuniy foydalanishga qarshi kurashishga qaratilgan chora-tadbirlar tizimidir"
+  },
+  {
+    "savol": "Dasturiy ta'minotning murakkabligi nechta asosiy guruhga bo'linadi:?",
+    "javob": "3 asosiy guruhga ega"
+  },
+  {
+    "savol": "Modullashtirish - bu?",
+    "javob": "dasturiy ta'minot tizimini vazifalarni mustaqil bajarishga qodir bo'lgan bir nechta diskret va mustaqil modullarga bo'lish usulidir"
+  },
+  {
+    "savol": "Oq quti sinovlari –?",
+    "javob": "dasturning ichki tuzilmalarini yoki ishlarini tekshirishdir"
+  },
+  {
+    "savol": "Qora quti testi-…?",
+    "javob": "ichki dasturni bilmasdan, manba kodini ko'rmasdan funksionallikni tekshiradi."
+  },
+  {
+    "savol": "Grey-box testi (kulrang quti testi)?",
+    "javob": "testlarni loyihalashtirish uchun ichki ma'lumotlar tuzilmalari va algoritmlari haqida bilimga ega bo'lishni o'z ichiga olishidir"
+  },
+  {
+    "savol": "Dasturiy ta'minotni konstruktsiyalash (“Software Construction”) bilim sohasi quyidagi bo'limlarni o'z ichiga oladi:?",
+    "javob": "murakkablikni pasaytirish bo'limiga ega"
+  },
+  {
+    "savol": "Murakkablikni pasaytirish - bu?",
+    "javob": "konstruktsiyalashdagi murakkablikni minimallashtirish, kamaytirish va alohida qismlarga bo'lishdir"
+  },
+  {
+    "savol": "SCRUM metodologiyasida qanday ishtirokchi-roli mavjud emas??",
+    "javob": "Menejer roli mavjud emasdir"
+  },
+  {
+    "savol": "SCRUMda uchta artefakt mavjud. Sprint davrida ishlab chiquvchilar jamoasi tomonidan bajarilgan artefakt, 2ta qoidaga javob berish lozim: releasable (foydalanuvchiga taqdim qilish mumkinligi) va usable (foydalanuvchilar uchun qiymatga ega). Bu qaysi artefaktga o’rinli?",
+    "javob": "Inkrement (Increment) artefaktiga taaluqlidir"
+  },
+  {
+    "savol": "SCRUMda uchta artefakt mavjud. Maxsulotlarga quyilgan talablar jamlanmasi. Bu qaysi artefaktga o’rinli?",
+    "javob": "Mahsulot uchun talablar (Product Backlog) artefaktiga taaluqlidir"
+  },
+  {
+    "savol": "SCRUMda uchta artefakt mavjud. Ishlab chiquvchilar jamoasi sprintning yakunida tayyor mahsulotni chiqarish uchun kerak bo'lgan vazifalarni o'z ichiga oladi. Bu qaysi artefaktga o’rinli ?",
+    "javob": "Sprint uchun talablar (Sprint Backlog) artefaktiga mansubdir"
+  },
+  {
+    "savol": "SCRUM metodologiyasining dasturiy mahsulotni ko'rinishini shakllantirish va talablarni ishlab chiqish uchun javobgar shaxs?",
+    "javob": "Mahsulot egasi (Product Owner) javobgar shaxsdir"
+  },
+  {
+    "savol": "SCRUM metodologiyasining har qanday vaqtda bir maqsadga, ya’ni maxsulotni ishlab chiqishga, qaratilgan professionallar birlashmasi.?",
+    "javob": "Scrum jamoasidir (Scrum Team)"
+  },
+  {
+    "savol": "SCRUM metodologiyasining jamoa to'siqlarni bartaraf etishga, jamoa murabbiy vazifasini va SCRUM tadbirlarini tashkil qiluvchi shaxs.?",
+    "javob": "Scrum masterdir (Scrum Master) "
+  },
+  {
+    "savol": "Bu SCRUM jamoasi va Mahsulot egasi tomonlaridan SCRUM tadbirlarini, oddatda 2-4 xafta vaqt miqdorida tashkil qilinayotgan jarayon.?",
+    "javob": "Sprint jarayonidir"
+  },
+  {
+    "savol": "Sprint uchun talablar(Sprint Backlog)ni namoyon qilish uchun vositasi?",
+    "javob": "Scrum oynasi vositasidir"
+  },
+  {
+    "savol": "Lean – metodologiyasi bu ?",
+    "javob": "Resurslarni tejash metodologiyasidir"
+  },
+  {
+    "savol": "SCRUMda Sprint – bu?",
+    "javob": "vazifa yoki muammoni jamoaviy muhokama qilish va uni hal etish maqsadida (ishlab chiqishga) amalga oshirilayotgan jarayondir"
+  },
+  {
+    "savol": "Scrum - bu?",
+    "javob": "Dasturiy ta’minotni ishlab chiqish metodologiyasidir"
+  },
+  {
+    "savol": "Scrum metodologiyaning kamchiligini aniqlang?",
+    "javob": "Sprintlar bo'g'inlarida munozaralar va uchrashuvlar katta vaqt yo'qotishdir"
+  },
+  {
+    "savol": "SCRUM tamoyilli: Shaffoflik (Transparency)?",
+    "javob": "Jihatlar umumiy standartga birlashtirilganligini va barcha ishtirokchilari umumiy tushunchasiga egaligini nazarda tutishidir"
+  },
+  {
+    "savol": "SCRUM tamoyilli: Tekshirish (inspeksiyalash) (Inspection)?",
+    "javob": "Sprint va mahsulot maqsadlariga erishishdagi nomaqbul og'ishlarni o'z vaqtida aniqlashni va tekshirishni nazarda tutishidir"
+  },
+  {
+    "savol": "SCRUM tamoyilli: Moslashuvchanlik (Adaptation)?",
+    "javob": "Jarayon yoki mahsulotning bir yoki bir nechta elementlarining maqbul chegaralaridan chetga chiqish aniqlanganda tegishli o' zgarishlarni amalga oshirishni nazarda tutishidir"
+  },
+  {
+    "savol": "Kunlik Scrum (Daily Scrum)?",
+    "javob": "Ushbu tadbir o'n besh daqiqadan ortiq davom etmaydi va har bir ish kuni bir joyda bir vaqtning o'zida o'tkazilishidir"
+  },
+  {
+    "savol": "Sprint sharhi (Sprint Review)?",
+    "javob": "Ushbu tadbir Sprint oxirida o'tkaziladi, shuning uchun mijozlar va manfaatdor shaxslar qo'shimcha tekshiruvni o'tkazadilar va unga hisobot berishidir"
+  },
+  {
+    "savol": "Spritni rejlashtirish (Sprint Planning)?",
+    "javob": "Bu keyingi Sprint uchun ishni rejalashtiradigan Skrum-jamoa tadbiridir."
+  },
+  {
+    "savol": "Sprint retrospektivasi (Sprint Retrospective)?",
+    "javob": "Barcha ishtirokchilarning o'z ishlarini tekshirish va keyingi bosqichlarida takomillashtirish rejasini tuzish tadbiridir"
+  },
+  {
+    "savol": "UML ning Inglizcha nomi to'g'ri yozilgan  qatorni toping??",
+    "javob": "Unified Modeling Language nomi UML ning Inglizcha nomidir"
+  },
+  {
+    "savol": "Tasvirda uml-diagrammaning qanday turi keltirilgan?",
+    "javob": "Pretsedentlar diagrammasi (use case diagram) turi tasvirlangandir"
+  },
+  {
+    "savol": "Tasvirda uml-diagrammaning qanday turi keltirilgan?",
+    "javob": "Faoliyat diagrammasi (activity diagram) turi tasvirlangandir"
+  },
+  {
+    "savol": "Diagrammalarda izoh (eslatma) qanday geometrik shakl yordamida tasvirlanadi?",
+    "javob": "Burchagi buklangan varaq ko’rinishiga ega"
+  },
+  {
+    "savol": "UML notatsiyasi orqali ifodalab bo’lmagan ob’ektlarga OCL - Object Constraint Language formal tili yoki tabiiy so’zlar yordamida ifodalanish xodisa sharti.?",
+    "javob": "Cheklov xodisa shartidir"
+  },
+  {
+    "savol": "Tasvirda uml-diagrammaning qanday turi keltirilgan?",
+    "javob": "Sinflar diagrammasi (class diagram) turidir"
+  },
+  {
+    "savol": "Tasvirda uml-diagrammaning qanday turi keltirilgan?",
+    "javob": "Ketma-ketlik diagrammasi (sequence diagram) turidir"
+  },
+  {
+    "savol": "UML qanday dasturiy ta’minotni yaratish va loyihalash paradigmasiga asoslangan?",
+    "javob": "Ob’ektga yo’naltirilgan yondashuv paradigmasiga asosidadir"
+  },
+  {
+    "savol": "Ektor (actor, aktyor) – bu:?",
+    "javob": "ushbu tizim bilan o'zaro aloqada bo'lgan kompyuter tizimiga nisbatan tashqi mohiyatdir"
+  },
+  {
+    "savol": "Bu dasturiy, tashkiliy-iqtisodiy, texnik va turli tabiatdagi boshqa tizimlarni aniqlash, taqdim etish, loyihalashtirish va hujjatlashtirish tilidir.?",
+    "javob": "UML "
+  },
+  {
+    "savol": "Hodisalar oqimidagi o'zaro ta'sir qiluvchi ob'ektlar guruhlarining xatti-harakatlarini tavsiflovchi diagramma.?",
+    "javob": "O'zaro hamkorlik diagrammasidir"
+  },
+  {
+    "savol": "Foydalanish holatida sodir bo'ladigan hodisalarning vaqt ketma-ketligini tavsiflovchi diagramma.?",
+    "javob": "Ketma-ketlik diagrammasi"
+  },
+  {
+    "savol": "Tizimning sinflarini va ular o'rtasida mavjud bo'lgan turli xil ulanishlarni tavsiflovchi diagramma?",
+    "javob": "Sinf diagrammasi"
+  },
+  {
+    "savol": "Barcha mumkin bo'lgan holatlarni, shuningdek, ob'ektning holatlarini o'zgartirish jarayonini tavsiflovchi diagramma?",
+    "javob": "Holatlar diagrammasi"
+  },
+  {
+    "savol": "Dasturiy ta'minot komponentlarini va ular o'rtasidagi munosabatlarni tavsiflovchi diagramma.?",
+    "javob": "Komponent diagrammasi"
+  },
+  {
+    "savol": "Tizimning dasturiy va apparat komponentlari o'rtasidagi jismoniy aloqalarni tavsiflovchi diagramma.?",
+    "javob": "Joylashtirish diagrammasi"
+  },
+  {
+    "savol": "Ketma-ketlik diagrammasi –?",
+    "javob": "ob'ektlar o'rtasida almashinadigan xabarlar ketma-ketligini modellashtiradi"
+  },
+  {
+    "savol": "Kommunikatsiya diagrammasi UML 1 standartida qanday nomlangan?",
+    "javob": "Hamkorlik diagrammasi"
+  },
+  {
+    "savol": "Vaqt diagrammasi (timing diagrams) –?",
+    "javob": "o'zaro ta'sir paytida bir nechta ob'ektlarning holatini o'zgartirishni modellashtirishdir"
+  },
+  {
+    "savol": "O'zaro munosabatlarni ko'rib chiqish diagrammasi qanday 2ta diagrammani o’z ichiga oladi?",
+    "javob": "Faoliyat diagrammasi va ketma-ketlik diagrammasiga ega"
+  },
+  {
+    "savol": "Pretsedent diagrammasi (use case diagram) quyidagicha: 1-nomerli belgilangan ob’ektlar qanday nomlanadi ?",
+    "javob": "Keyslar degan nomga ega"
+  },
+  {
+    "savol": "Pretsedent diagrammasi (use case diagram) quyidagicha: 2-nomerli belgilangan ob’ektlar qanday nomlanadi ?",
+    "javob": "Aktyorlar degan nomga ega"
+  },
+  {
+    "savol": "Pretsedent diagrammasi (use case diagram) quyidagicha: 3-nomerli belgilangan ob’ektlar qanday nomlanadi ?",
+    "javob": "aktyor va foydalanish holatlari o'rtasidagi bog'liqlik degan nomga ega"
+  },
+  {
+    "savol": "Pretsedent diagrammasi (use case diagram) quyidagicha: 4-nomerli belgilangan ob’ektlar qanday nomlanadi ?",
+    "javob": "aktyorlar o'rtasidagi umumlashtirish degan nomga ega"
+  },
+  {
+    "savol": "Pretsedent diagrammasi (use case diagram) quyidagicha: 5-nomerli belgilangan ob’ektlar qanday nomlanadi ?",
+    "javob": "foydalanish holatlari orasidagi umumlashtirish degan nomga ega"
+  },
+  {
+    "savol": "Pretsedent diagrammasi (use case diagram) quyidagicha: 6-nomerli belgilangan ob’ektlar qanday nomlanadi ?",
+    "javob": "foydalanish holatlari orasidagi bog'liqliklar (har xil turdagi) degan nomga ega"
+  },
+  {
+    "savol": "Pretsedent diagrammasi (use case diagram) quyidagicha: 7-nomerli belgilangan ob’ektlar qanday nomlanadi ?",
+    "javob": "Izohlar degan nomga ega"
+  },
+  {
+    "savol": "“Pretsedentlar (variantlardan foydalanish)” ob'ektlar turi UML diagrammalarida qanday shakl ko’rinishida ifodalanadi ?",
+    "javob": ""
+  },
+  {
+    "savol": "“Sinflar” ob'ektlar turi UML diagrammalarida qanday shakl ko’rinishida ifodalanadi ?",
+    "javob": ""
+  },
+  {
+    "savol": "“Holatlar yoki hodisalar” ob'ektlar turi UML diagrammalarida qanday shakl ko’rinishida ifodalanadi?",
+    "javob": ""
+  },
+  {
+    "savol": "“Artefakt yoki ishchi mahsulot” ob'ektlar turi UML diagrammalarida qanday shakl ko’rinishida ifodalanadi?",
+    "javob": ""
+  },
+  {
+    "savol": "“Komponentalar” ob'ektlar turi UML diagrammalarida qanday shakl ko’rinishida ifodalanadi?",
+    "javob": ""
+  },
+  {
+    "savol": "UML notatsiyasida sinf diagrammasi qaysi 3ta qismdan iborat??",
+    "javob": "Nomlanishi, atributlar va amallar"
+  },
+  {
+    "savol": "Qaysi 3ta maxsus belgilar yordamida Sinf diagrammasida sinf atributlar va amallar ko’rinishini belgilaydi?",
+    "javob": "+,-,#"
+  },
+  {
+    "savol": "Ichki dasturni bilmasdan, manba kodini ko'rmasdan funksionallikni tekshiradi.?",
+    "javob": "Black-box testlash"
+  },
+  {
+    "savol": "Dasturning ichki tuzilmalarini yoki ishlarini tekshiradi.?",
+    "javob": "White-box testlash"
+  },
+  {
+    "savol": "Testlarni loyihalashtirish uchun ichki ma'lumotlar tuzilmalari va algoritmlari haqida bilimga ega bo'lishni o'z ichiga oladi?",
+    "javob": "Gray-box testlash"
+  },
+  {
+    "savol": "Talablarni aniqlash manbalari va usullari uchun qo'llanilmaydi?",
+    "javob": "Dasturiy ta'minotni o'rnatish uchun qo'llanma"
+  },
+  {
+    "savol": "Talablarni aniqlash manbalari va usullari uchun qo'llanilmaydi?",
+    "javob": "Adabiyotlar ro'yxati"
+  },
+  {
+    "savol": "Dasturiy ta’minotni testlash (software testing) – bu …?",
+    "javob": "dasturning real va kutilgan natijalari orasidagi moslikni ma’lum tartibda tanlangan chekli test to’plami asosida tekshirish"
+  },
+  {
+    "savol": "Tekshirish (Verification) – bu …?",
+    "javob": "tizimni yoki uning komponentlarini joriy bosqich boshida shakllantirilgan talablarga qanoatlantirishini baholash jarayonidir"
+  },
+  {
+    "savol": "Validatsiya (Validation) – bu …?",
+    "javob": "ishlab chiqilgan DTning kutilgan natijalarga va foydalanuvchi extiyojlariga, tizim talablariga mosligini aniqlash"
+  },
+  {
+    "savol": "Testlashni rejalashtirish (Test Plan) – bu?",
+    "javob": "testlash bo’yicha bajarilishi kerak bo’lgan ishlarni qamrab olgan xujjat"
+  },
+  {
+    "savol": "Bag/Defekt Report (Bug Report) - bu …?",
+    "javob": "testlash obyektini noto’g’ri ishlashiga olib kelgan harakatlar ketma-ketligi yoki shu holatga olib kelgan vaziyatlarni izohi bo’lib unda kelib chiqish sabablari va kutilayotgan natijalar keltirilgan xujjatdir"
+  },
+  {
+    "savol": "Quyidagi bayonot talablarni sinovdan o'tkazish uchun qaysi parametrga mos keladi «Talablar tizimdan foydalanishning ijobiy va salbiy holatlarini o'z ichiga olishi kerak»?",
+    "javob": "Mumkin stsenariylar"
+  },
+  {
+    "savol": "Quyidagi bayonot talablarni sinovdan o'tkazish uchun qaysi parametrga mos keladi «Talablar har bir modul va butun mahsulot qanday ishlashi kerakligi haqida juda aniq ma'lumot berishi kerak»?",
+    "javob": "Aniqlik va ravshanlik"
+  },
+  {
+    "savol": "Quyidagi bayonot talablarni sinovdan o'tkazish uchun qaysi parametrga mos keladi «Ishlab chiqilgan mahsulotning boshqa tizimi bilan o'zaro ta'sir qilish sxemasining tavsifi»?",
+    "javob": "Integratsiya"
+  },
+  {
+    "savol": "Quyidagi bayonot talablarni sinovdan o'tkazish uchun qaysi parametrga mos keladi «Dasturiy ta'minotni ishlab chiqish jarayonida o'zgarishlarni amalga oshirish bilan bog'liq talablarni saqlab qolish zaruriyati»?",
+    "javob": "Dolzarbligi"
+  },
+  {
+    "savol": "Talablar doirasida asosiy test usullariga kirmaydigan texnika?",
+    "javob": "O'zaro ko'rish"
+  },
+  {
+    "savol": "Quyilgan TALABLARNING muhimli deb aytib bo'lmaydigan variantni tanlang?",
+    "javob": "Ishlab chiqilayotgan mahsulotning moliyaviy qismini aniqlash"
+  },
+  {
+    "savol": "Foydalanuvchi uchun daturiy ta’minot vazifani hal qilish jarayonida qaysi funktsiyalar va shartlarga rioya qilish kerakligini tavsifi bu?",
+    "javob": "Talablar"
+  },
+  {
+    "savol": "Sinovlash(testlash) turlari ko'rsatilgan variantni belgilang?",
+    "javob": "Funktsional, tizimli, o'zgarish bilan bog'liq"
+  },
+  {
+    "savol": "Dasturni ishga tushirish mezoni bilan qanday test turlari ajratiladi?",
+    "javob": "Statik va dinamik"
+  },
+  {
+    "savol": "Amalga oshirish jarayoni bilan qanday test turlari ajratiladi?",
+    "javob": "Qo'lda, Yarimavtomatik, Avtomatlashtirilgan"
+  },
+  {
+    "savol": "Quyidagi hujjatlar qanday hujjatlar toifasiga kiradi: o'rnatilgan yordam tizimi, o'rnatish va foydalanish bo'yicha yoriqnomalar, litsenziya shartnomasi?",
+    "javob": "Foydalanuvchi va qo'llab-quvvatlovchi hujjatlar (user and accompanying documentation)"
+  },
+  {
+    "savol": "Quyidagi hujjatlar qanday hujjatlar toifasiga kiradi: loyiha rejasi, dasturiy mahsulotga bo'lgan talablar, arxitektura va dizayn?",
+    "javob": "Mahsulot hujjatlari (product documentation, development documentation)"
+  },
+  {
+    "savol": "Quyidagi hujjatlar qanday hujjatlar toifasiga kiradi: ma'lumotlar bazasi sxemalari, algoritmlarning tavsifi, interfeyslar?",
+    "javob": "Texnik spetsifikatsiyalar (technical specifications)"
+  },
+  {
+    "savol": "Dasturiy mahsulotning muayyan sharoitlarda dasturiy ta'minotdan foydalanishda o'rnatilgan va mo'ljallangan ehtiyojlarga mos keladigan funktsiyalarni taqdim etish qobiliyati … deyiladi.?",
+    "javob": "Funktsionalligi"
+  },
+  {
+    "savol": "Umumiy xavfsizlik strategiyasi uchta asosiy tamoyilga asoslangan. Qaysi variant ortiqcha?",
+    "javob": "Ishonchlilik "
+  },
+  {
+    "savol": "Testni Qoplanishi (Test Coverage) – bu?",
+    "javob": "testlash sifatini baholash mezonlaridan biri, bajariladigan kodning yoki talablarni testlar yordamida qoplanishidir"
+  },
+  {
+    "savol": "Dasturiy ta'minotni testlash necha va qanday darajalarga bo'linadi ?",
+    "javob": "4 (Modulli, integratsiyali, tizimli, qabul qilish testi)"
+  },
+  {
+    "savol": "Mavjud bo'lgan ilovaning ayrim yoki alohida mustaqil bo'lgan komponentalar orasidan nuqsonlarning mavjudligini aniqlash uchun funktsional va funktsional bo'lmagan talablarni tekshirish test-sinovi.?",
+    "javob": "Modulli yoki komponentli testlash"
+  },
+  {
+    "savol": "Bu tizim talablarga javob berishini tasdiqlovchi va mijozlarning tizimdan qoniqishini aniqlash uchun o'tkaziladigan rasmiy test jarayonidir.?",
+    "javob": "Qabul qilish testi"
+  },
+  {
+    "savol": "Komponentlar orasidagi aloqani tekshirish, shuningdek tizimning turli qismlari (operatsion tizim, uskunalar yoki turli tizimlar o'rtasidagi aloqa) bilan o'zaro aloqani tekshirish.?",
+    "javob": "Integratsiyalashuv testlash"
+  },
+  {
+    "savol": "Butun tizimdan nuqsonlarning mavjudligini aniqlash uchun funktsional va funktsional bo'lmagan talablarni tekshirish test-sinovi.?",
+    "javob": "Tizimli testlash"
+  },
+  {
+    "savol": "Pastdan yuqoriga, yuqoridan pastga, katta portlash (big bang) - yondashuvlar qaysi testlashning darajasiga tegishli?",
+    "javob": "Integratsiyalashuv testlash"
+  },
+  {
+    "savol": "“Foydalanish holatlariga asoslangan va  talablar asosida” yondashuvlar qaysi testlashning darajasiga tegishli?",
+    "javob": "Tizimli testlash"
+  },
+  {
+    "savol": "“Alfa testi, Beta testi, Foydalanuvchi testi” yondashuvlar qaysi testlashning darajasiga tegishli?",
+    "javob": "Qabul qilish testi"
+  },
+  {
+    "savol": "“framework, test to'plamlari va holatlar” yondashuvlar qaysi testlashning darajasiga tegishli?",
+    "javob": "Modulli yoki komponentli testlash"
+  },
+  {
+    "savol": "Qaysi testning vazifasi: maksimal yuklanganligi ostida dasturning miqyosliligini aniqlaydi.?",
+    "javob": "Ishlashchanlik testi"
+  },
+  {
+    "savol": "Qaysi testning vazifasi: dasturni himoya qilish, hacker hujumlari, viruslar, nozik ma'lumotlarga ruxsatsiz kirish uchun yaxlit yondashuvni ta'minlash bilan bog'liq xatarlarni tahlil qilish.?",
+    "javob": "Xavfsizlik testi"
+  },
+  {
+    "savol": "Qaysi testning vazifasi: sinov qilingan mahsulotni dasturiy ta'minot xatolar, apparat etishmovchiligi yoki aloqa muammolari tufayli yuzaga kelishi mumkin bo'lgan muvaffaqiyatsizliklarga qarshi turish va muvaffaqiyatli tiklash qobiliyati nuqtai nazaridan tekshirish?",
+    "javob": "Rad etish va tiklash testi"
+  },
+  {
+    "savol": "Qaysi testning vazifasi: turli platformalarda dasturiy ta'minotni tekshirishga qaratilgan testlash.?",
+    "javob": "Konfiguratsiya testi"
+  },
+  {
+    "savol": "Qaysi testning vazifasi: Foydalanuvchi dasturiy ta'minotni o'rnatish va sozlash uchun bajarishi kerak bo'lgan harakatlarni tekshirishdan iborat.?",
+    "javob": "O'rnatish testi"
+  },
+  {
+    "savol": "Regresiya testi (Regression Testing) ?",
+    "javob": "Bu ilova yoki muhitga kiritilgan oʻzgarishlarni (nuqsonni tuzatish, kodni birlashtirish, boshqa operatsion tizimga, maʼlumotlar bazasiga, veb-server yoki dastur serveriga oʻtkazish) tekshirishga qaratilgan testidir."
+  },
+  {
+    "savol": "Tutunli test (Smoke testing)?",
+    "javob": "Bu komponent yoki tizimning asosiy funksiyalarini qamrab oluvchi rejalashtirilgan test."
+  },
+  {
+    "savol": "Sanitar testi (Sanity Testing)?",
+    "javob": "spetsifikatsiyada ko'rsatilgan talablarga muvofiq ishlayotganligini isbotlash uchun etarli darajada yo'naltirilgan testdir."
+  },
+  {
+    "savol": "O'rnatish testi (Build Verification Test)?",
+    "javob": "boshlash uchun chop etilgan versiyaning sifat mezonlariga muvofiqligini aniqlashga qaratilgan testdir."
+  },
+  {
+    "savol": "O'zaro ta'sir testi (Interoperability Testing)?",
+    "javob": "DTning bir yoki bir nechta komponentlar yoki tizimlar bilan o'zaro aloqa qilish qobiliyatini tekshirish, moslik testini (muvofiqlik testini) va integratsiyashuvan testni (integration testing) o'z ichiga oladi."
+  },
+  {
+    "savol": "Foydalanish qulayligi testi (Usability Testing)?",
+    "javob": "ishlab chiqilgan mahsulotning foydalanuvchilar uchun qulaylik, o'rganish, tushunarlilik va jozibadorlik darajasini ma'lum shartlar kontekstida belgilash."
+  },
+
+  {
+    "savol": "\"Mobil ilova\" atamasi qanday ilovalarga nisbatan ishlatiladi??",
+    "javob": "Mobil platformalarda ishlovchi ilovalar"
+  },
+  {
+    "savol": "Emulyator qanday dastur??",
+    "javob": "Bir OT uchun yozilgan dasturni boshqa OT da ishlashini ta'minlovchi dastur"
+  },
+  {
+    "savol": "Play Store nima?\t?",
+    "javob": "Android telefonlari uchun mo‘ljallangan mobil ilovalar do‘koni"
+  },
+  {
+    "savol": "App Store haqida to‘g‘ri ta’rifni belgilang??",
+    "javob": "iOS foydalanuvchilari uchun mobil ilovalar do‘koni"
+  },
+  {
+    "savol": "Androidga to‘g‘ri ta’rif berilgan qatorni belgilan?",
+    "javob": "Linux yadrosida ko‘tarilgan mobil OT //Kernell"
+  },
+  {
+    "savol": "Quyidagilardan mobil dasturlash til va freymvorklarini belgilang?",
+    "javob": "Kivy, Flutter, React Native"
+  },
+  {
+    "savol": "Flutter freymvorki qaysi dasturlash tiliga tegishli?",
+    "javob": "Dart"
+  },
+  {
+    "savol": "Table (yoki DataTable) komponentasi nima uchun ishlatiladi??",
+    "javob": "Ma’lumotlarni jadval ko‘rinishida ekranga chiqarish uchun"
+  },
+  {
+    "savol": "Quyidagilardan faqat mobil OT lar ko‘rsatilgan qatorni belgilang?",
+    "javob": "Android, iOS, Symbian, Windows mobile"
+  },
+  {
+    "savol": "Mobil ilovalar dizaynini ishlab chiqishda quyidagi grafik muharrirlarning qaysi biridan ko‘proq foydalaniladi??",
+    "javob": "Figma"
+  },
+  {
+    "savol": "Mobil ilovalar dizaynini ishlab chiqishda UX tushunchasi nimani ifodalaydi??",
+    "javob": "Foydalanuvchi tajribasi"
+  },
+  {
+    "savol": "Grafik interfeys bu?",
+    "javob": "Foydalanuvchining grafik interfeysi"
+  },
+  {
+    "savol": "Kivy freymvorki qaysi dasturlash tiliga tegishli??",
+    "javob": "Python"
+  },
+  {
+    "savol": "Boshqa klassdan voris olish uchun (Dart, Java) qaysi kalitso‘z ishlatiladi??",
+    "javob": "extends"
+  },
+  {
+    "savol": "Galereya ko‘rinishi nima??",
+    "javob": "Ekranda rasmlarni (rasmlarni) navbati bilan ko‘rsatish uchun foydalaniladi"
+  },
+  {
+    "savol": "Android operatsion tizimi qaysi IT gigant tomonidan qo‘llab-quvvatlab kelinadi??",
+    "javob": "Google"
+  },
+  {
+    "savol": "Genymotion, BlueStacks qanday vazifani bajaruvchi dasturlar??",
+    "javob": "emulyator"
+  },
+  {
+    "savol": "SQLite qanday dastur hisoblanadi??",
+    "javob": "Ma’lumotlar bazasini boshqarish tizimi"
+  },
+  {
+    "savol": "Mobil operatsion tizimlar deganda nimani tushunasiz??",
+    "javob": "bu mobil qurilmalarni boshqarish uchun mo‘ljallangan tizimlar (smartfonlar, planshetlar, PDA va boshqa mobil qurilmalar)"
+  },
+  {
+    "savol": "Android Studioda yozilgan kodni natijasi (build) ni qanday ko‘rish mumkin??",
+    "javob": "Barcha javoblar to‘g‘ri"
+  },
+  {
+    "savol": "Sozlamalar bu – …?",
+    "javob": "qurilma ma'lumotlarini sozlamalar va parametrlarda saqlash"
+  },
+  {
+    "savol": "Ma'lumotlar manzili (path) nima uchun ishlatiladi??",
+    "javob": "Chaqirilgan resursning local/global adresini ko‘rsatish uchun"
+  },
+  {
+    "savol": "Bir nechta variantni birgalikda tanlash maqsadida ishlatiladigan komponenta qaysi??",
+    "javob": "Checkbox"
+  },
+  {
+    "savol": "iOS platformasini qaysi kompaniya qo‘llab-quvvatlab, rivojlantirib boradi??",
+    "javob": "Apple"
+  },
+  {
+    "savol": "Quyidagi tillardan qaysi birida mobil ilovalar ishlab chiqish imkoni mavjud emas??",
+    "javob": "PHP"
+  },
+  {
+    "savol": "Android Studioda tayyor bo‘lgan kodni biron qurilmada ishga tushirish (build) uchun qaysi buyruq bosiladi??",
+    "javob": "Run (Shift + F10)"
+  },
+  {
+    "savol": "Microsoft kompaniyasining mobil qurilmalar uchun yaratgan mobil operatsion tizimi qaysi??",
+    "javob": "Windows Phone"
+  },
+  {
+    "savol": "Android Studioda yozilgan kodni qaysi brauzerlar orqali build qilib ko‘rish mumkin??",
+    "javob": "Barcha javoblar to‘g‘ri"
+  },
+  {
+    "savol": "Python dasturlash tilining Kivy freymvorkida qaysi qurilmalar uchun dastur yozish mumkin??",
+    "javob": "Barcha javoblar to‘g‘ri"
+  },
+  {
+    "savol": "APK formati qanday turdagi fayllarni saqlaydi??",
+    "javob": "Android dasturning build qilingan holati"
+  },
+  {
+    "savol": "Mobil dasturlashda Android ilovalar uchun asosan qaysi dizayn kutubxonasi ishlatiladi??",
+    "javob": "Material"
+  },
+  {
+    "savol": "Android Studioda quyidagi qaysi platformalar uchun dasturlar yozish mumkin??",
+    "javob": "Android va iOS, iOS uchun Flutter plaginini o‘rnatib yozish mumkin"
+  },
+  {
+    "savol": "Android Studioda iOS uchun ham dastur yozishga qanday talablar mavjud??",
+    "javob": "Flutter plaginini o‘rnatish kerak"
+  },
+  {
+    "savol": "Image (Imageview) komponentasi qay maqsadda ishlatiladi??",
+    "javob": "Rasmlarni joylashtirish uchun"
+  },
+  {
+    "savol": "Mobil ilovadagi element ustiga sichqoncha chap tugmasi bilan bosilganda qaysi metod ishga tushadi??",
+    "javob": "OnPressed()"
+  },
+  {
+    "savol": "Android dasturlari qaysi kengaytma bilan saqlanadi??",
+    "javob": ".apk"
+  },
+  {
+    "savol": "Sana bilan ishlovchi komponenta (Android Studio, Flutter) qanday nomlanadi??",
+    "javob": "DatePicker"
+  },
+  {
+    "savol": "Flutter freymvorki qaysi kompaniya tomonidan qo‘llab quvvatlanadi??",
+    "javob": "Google"
+  },
+  {
+    "savol": "Label vazifasini bajaruvchi komponentalar nomlari berilgan qatorni ko‘rsating??",
+    "javob": "Text, TextView"
+  },
+  {
+    "savol": "Mobil ilova (masalan, birorta .apk kengaytmali fayl) ni kompyuterda ishlatish imkonini beruvchi dasturlar qanday nomlanadi??",
+    "javob": "Emulyator"
+  },
+  {
+    "savol": "Android Studioda mavjud faylni ochish uchun qaysi buyruqdan foydalaniladi??",
+    "javob": "Open (Ctrl + O)"
+  },
+  {
+    "savol": "Dart tilining mobil dasturlash uchun mo‘ljallangan freymvorkini belgilang??",
+    "javob": "Flutter"
+  },
+  {
+    "savol": "Quyidagilardan qaysi biri mobil dasturlash freymvorki hisoblanadi??",
+    "javob": "Barcha javoblar to‘g‘ri"
+  },
+  {
+    "savol": "iOS uchun yozilgan kodni qanday qurilmada build qilish mumkin??",
+    "javob": "Faqatgina MacOS o‘rnatilgan qurilmada"
+  },
+  {
+    "savol": "Kodning dasturchi uchun tushunarli holatda, probel va tabulyatsiya belgilari bilan yozilgan holati qanday nomlanadi??",
+    "javob": "Human readable"
+  },
+  {
+    "savol": "Android Studioda kodni “Human readable” ko‘rinishga o‘tkazish uchun qaysi klavishlar birgalikda bosiladi??",
+    "javob": "Ctrl + Alt + L"
+  },
+  {
+    "savol": "Quyidagilardan qaysi dasturlash tilida mobil dasturlash uchun freymvork mavjud emas??",
+    "javob": "PHP"
+  },
+  {
+    "savol": "Qaysi mobil operatsion tizimda ishlaydigan qurilmalar eng ko‘p tarqalgan??",
+    "javob": "Android"
+  },
+  {
+    "savol": "Android operatsion tizimining keng tarqalishining asosiy sababini belgilang??",
+    "javob": "Open source va tekin tarqatilishi"
+  },
+  {
+    "savol": "Android haqida to‘g‘ri ta’rif berilgan qatorni belgilang??",
+    "javob": "Barcha javoblar to‘g‘ri"
+  },
+  {
+    "savol": "Android Studioda Flutter bilan ishlaganda Dart dasturlash tiliga doir maxsus sozlamalar qaysi katalogda saqlanadi??",
+    "javob": ".dart"
+  },
+  {
+    "savol": "Android Studioda qilinayotgan mobil ilova loyihasida Git sozlamalari qaysi faylda saqlanadi??",
+    "javob": ".gitignore"
+  },
+  {
+    "savol": "Android Studioda Flutter freymvorkida qilinayotgan mobil ilova loyihasida .metada faylida qanday ma’lumotlar saqlanadi??",
+    "javob": "Flutter yangilanishiga oid metama’lumotlar"
+  },
+  {
+    "savol": "Dastlab Andriod OT versiyalari qanday nomlangan??",
+    "javob": "Shirinliklar nomlari bilan"
+  },
+  {
+    "savol": "Android Studioda qilinayotgan mobil ilova loyihasida .gitignore faylida qanday ma’lumotlar saqlanadi??",
+    "javob": "Git bilan ishlash sozlamalari"
+  },
+  {
+    "savol": "Android Studioda qilinayotgan mobil ilova loyihasida kerakli paketlar haqidagi ma’lumotlar qaysi faylda saqlanadi??",
+    "javob": ". packages "
+  },
+  {
+    "savol": "Android qaysi sabablarga ko‘ra Linuxga asoslanib yaratilgan??",
+    "javob": "Barcha javoblar to‘g‘ri"
+  },
+  {
+    "savol": "Android Studioda qilinayotgan mobil ilova loyihasida iOS katalogida qanday ma’lumotlar saqlanadi??",
+    "javob": "iOS ga oid kodlar"
+  },
+  {
+    "savol": "Android Studioda qilinayotgan mobil ilova loyihasida .packages faylida qanday ma’lumotlar saqlanadi??",
+    "javob": "Paketlar haqida qo‘shimcha ma’lumotlar"
+  },
+  {
+    "savol": "Android Studioda iOS spetsifikatsiyasiga doir maxsus sozlamalar qaysi katalogda saqlanadi??",
+    "javob": "Ios "
+  },
+  {
+    "savol": "Samarali mobil ilova ishlab chiqish uchun qaysi savollarga to‘g‘ri javob berish kerak??",
+    "javob": "Barcha javoblar to‘g‘ri"
+  },
+  {
+    "savol": "Android Studioda qilinayotgan mobil ilova loyihasida android katalogida qanday ma’lumotlar saqlanadi??",
+    "javob": "Android maxsus (native) kodlari"
+  },
+  {
+    "savol": "Android Studioda Flutterda dasturlash uchun qanday talablar mavjud??",
+    "javob": "Barcha javoblar to‘g‘ri"
+  },
+  {
+    "savol": "Android OT qaysi kompaniya tomonidan yaratilgan??",
+    "javob": "Android Ins"
+  },
+  {
+    "savol": "Android Studioda dastur kodini kompilyatsiya qilib, to‘g‘ridan to‘g‘ri telefonga o‘rnatish mumkinmi??",
+    "javob": "Mumkin, USB interfeys va ba’zi sozlamalar bilan"
+  },
+  {
+    "savol": "Android Studioda qilinayotgan mobil ilova loyihasida .idea katalogida qanday ma’lumotlar saqlanadi??",
+    "javob": "Muharrir dasturi (editor) sozlamalari"
+  },
+  {
+    "savol": "Mobil ilova yaratishda konsepsiyani ishlab chiqish qaysi jarayonlarni o‘z ichiga oladi??",
+    "javob": "Barcha javoblar to‘g‘ri"
+  },
+  {
+    "savol": "Javascript dasturlash tilining mobil dasturlashga mo‘ljallangan freymvorkini belgilang??",
+    "javob": "React Native"
+  },
+  {
+    "savol": "Bir nechta platformalar uchun birdaniga dastur yozish imkoniga ega dasturlash tillari … dasturlash tillari deyiladi.?",
+    "javob": "Krossplatformali"
+  },
+  {
+    "savol": "Faqat emulyator dasturlar berilgan qatorni toping??",
+    "javob": "BlueStacks, Genymotion"
+  },
+  {
+    "savol": "Mobil dasturlashda faqatgina matn ko‘rinishidagi ma'lumotlarni ko‘rsatish uchun ishlatiladi va <........> elementi yordamida yaratiladi?",
+    "javob": "TextView"
+  },
+  {
+    "savol": "CheckBox komponentasiga to‘g‘ri ta’rif berilgan qatorni belgilang?",
+    "javob": "bu maxsus turdagi tugma va ikkita holatda bo‘lishi mumkin: checked yoki unchecked."
+  },
+  {
+    "savol": "Android Studioda virtual qurilmalar (telefon, planshet, …) ni yaratish, boshqarish imkonini beruvchi utilita qaysi??",
+    "javob": "AVD manager"
+  },
+  {
+    "savol": "Android Studioda sozlamalarga tezkor kirish uchun qaysi tugmachalar birgalikda bosiladi??",
+    "javob": "Ctrl + Alt + S"
+  },
+  {
+    "savol": "Mobil ilovalar dizaynini ishlab chiqishda UI tushunchasi nimani ifodalaydi??",
+    "javob": "Foydalanuvchi interfeysi"
+  },
+  {
+    "savol": "Ma’lumotlarni jadval ko‘rinishida aks ettirish uchun qaysi komponenta ishlatiladi??",
+    "javob": "Table, DataTable"
+  },
+  {
+    "savol": "Sinf yaratish qaysi kalit so‘z yordamida amalga oshiriladi??",
+    "javob": "class"
+  },
+  {
+    "savol": "Button ustiga sichqoncha bilan bosilganda qaysi metod ishga tushadi??",
+    "javob": "onPress (Pressed)"
+  },
+  {
+    "savol": "CheckBox belgilanganda qaysi atribut True qiymatga ega bo‘ladi??",
+    "javob": "Checked"
+  },
+  {
+    "savol": "Ob'ektning qiymati qaysi atribut orqali o‘rnatiladi??",
+    "javob": "Value"
+  },
+  {
+    "savol": "Mavjud variantlardan faqat bittasini belgilash uchun ishlatiladigan komponenta qaysi??",
+    "javob": "Radio/RadioButton"
+  },
+  {
+    "savol": "Android Studioda tayyor bo‘lgan faylni saqlash uchun qaysi buyruq bosiladi??",
+    "javob": "Save (Ctrl + S)"
+  },
+  {
+    "savol": "Android Studioda qilinayotgan mobil ilova loyihasida test katalogida qanday ma’lumotlar saqlanadi??",
+    "javob": "dasturni testlashga doir kodlar"
+  },
+  {
+    "savol": "Android Studiodagi Android Virtual Device qanday vazifani bajaradi??",
+    "javob": "Emulyator yoki telefonsiz dasturni ishlatib ko‘rish imkoniyatini beradi"
+  },
+  {
+    "savol": "Android Studioda sozlamalarga tezkor kirish uchun qaysi klavishlar birgalikda bosiladi??",
+    "javob": "Ctrl + Alt + S"
+  },
+  {
+    "savol": "Android Studioda android spetsifikatsiyasiga doir maxsus sozlamalar qaysi katalogda saqlanadi??",
+    "javob": "Android"
+  },
+  {
+    "savol": "“Hot reload” funksiyasi qanday vazifani bajaradi??",
+    "javob": "Ishlab turgan dasturga o‘zgarishlarni tezkor qo‘shish"
+  },
+  {
+    "savol": "SQLite haqida quyidagilardan qaysi biri to‘g‘ri??",
+    "javob": " Ma’lumotlar bazasini boshqarish tizimi"
+  },
+  {
+    "savol": "Android Studioda muharrir (editor) maxsus sozlamalari qaysi katalogda saqlanadi??",
+    "javob": ".idea"
+  },
+  {
+    "savol": "Quyidagilardan qaysi biri Android platformasi uchun dastur yozish imkoni mavjud emas??",
+    "javob": "Sublime Text 3"
+  },
+  {
+    "savol": "Vaqt bilan ishlash uchun Android Studioda qaysi komonenta ishlatiladi??",
+    "javob": "TimePicker"
+  },
+  {
+    "savol": "Asosan tugmachali telefonlarda ishlatilgan mobil OT ni belgilang??",
+    "javob": "Symbian "
+  },
+  {
+    "savol": "Windows OT ga quyidagi dasturlardan qaysi birini o‘rnatib, .apk kengaytmali dasturni ishlatish mumkin??",
+    "javob": "Genymotion "
+  },
+  {
+    "savol": "Android Studioda kerakli kutubxona va modullar qaysi komanda bilan chaqiriladi??",
+    "javob": "import"
+  },
+  {
+    "savol": "Butun sonli ma’lumotlar qaysi tipda e’lon qilinadi??",
+    "javob": "int (integer)"
+  },
+  {
+    "savol": "Joriy elementga murojaat qilish uchun qaysi kalit so‘z ishlatiladi??",
+    "javob": "this "
+  },
+  { "savol": "GUI nima??", "javob": "Foydalanuvchi grafik interfeysi" },
+  {
+    "savol": "Haqiqiy sonlar qaysi kalit so‘z bilan e’lon qilinadi??",
+    "javob": "float"
+  },
+  {
+    "savol": "Funksiyadagi return buyrug‘i qanday vazifani bajaradi??",
+    "javob": "o‘zidan keyin keluvchi ma’lumot (son, satr, …) ni funksiya chaqirilgan joyga qaytaradi (uzatadi)"
+  },
+  {
+    "savol": "Android Studioda qilinayotgan mobil ilova loyihasida Flutterni yangilashga doir metama’lumotlar qaysi faylda saqlanadi??",
+    "javob": ". metadata "
+  },
+  {
+    "savol": "Ilk telefon qurilmasiga kim patent olgan??",
+    "javob": "Aleksandr Bell"
+  },
+  {
+    "savol": "Android dasturni WINDOWS OT da ishlatish mumkinmi??",
+    "javob": "Mumkin, emulyatorlar kerak bo‘ladi"
+  },
+  {
+    "savol": "iOS OT haqida to‘g‘ri ta’rif berilgan javobni belgilang??",
+    "javob": "Barcha javoblar to‘g‘ri "
+  },
+  {
+    "savol": "Android OT quyidagi imkoniyatlarning qaysi birini qo‘llab-quvvatlaydi??",
+    "javob": "Ko‘p vazifalilik"
+  },
+  {
+    "savol": "WINDOWS OT asosida yaratilgan mobil OT ni belgilang??",
+    "javob": "Windows Phone "
+  },
+  {
+    "savol": "Apple mobil qurilmalari uchun ilovalar do‘koni qanday nomlanadi??",
+    "javob": "App Store"
+  },
+  {
+    "savol": "Quyidagilardan GUI elementlarini belgilang??",
+    "javob": "Barcha javoblar to‘g‘ri"
+  },
+  {
+    "savol": "SDK Manager bu …?",
+    "javob": "SDK versiyalarini boshqarish utilitasi "
+  },
+  {
+    "savol": "Satrli o‘zgaruvchilar qaysi tipda e’lon qilinadi??",
+    "javob": "string"
+  },
+  {
+    "savol": "Android Studioda kompilyatsiya qilinib, ishlayotgan dasturga kiritilgan o‘zgarishlarni tezkor qo‘llash imkonini beruvchi komanda qaysi??",
+    "javob": "Hot reload"
+  },
+  {
+    "savol": "Quyidagi muharrirlardan qaysi birida Android platformasi uchun dastur yozish mumkin??",
+    "javob": "Barcha javoblar to‘g‘ri "
+  },
+  {
+    "savol": "Android mobil qurilmalari uchun Googlening ilovalar do‘koni qanday nomlanadi??",
+    "javob": "Play Market "
+  },
+  {
+    "savol": "Zamonaviy smartfonlar quyidagi qaysi funksiyalarga ega??",
+    "javob": "Barcha javoblar to‘g‘ri "
+  },
+  {
+    "savol": "Android Virtual Device (AVD) ni ishga tushirish uchun talablar qanday??",
+    "javob": "SDK vositalari 26.1.1 yoki undan keyingi versiyalari. 64 bitli protsessor. Windows: UG (Cheksiz mehmon) qo‘llab-quvvatlaydigan protsessor. HAXM 6.2.1 yoki undan keyingi versiyasi."
+  },
+  {
+    "savol": "Android telefonlarga Play Market ilovalar magazinidan boshqa joydan ham dastur o‘rnatsa bo‘ladimi??",
+    "javob": "Ha, shunga ruxsat beruvchi sozlamani yoqish kerak"
+  },
+  {
+    "savol": "Android Studioda kodlarimiz qatorlari orasidagi masofani sozlash ketma-ketligi qanday??",
+    "javob": "File » Settings » Editor » Font » Size "
+  },
+  {
+    "savol": "Android Studioda yaratilgan loyihani yana qaysi muharrirlarda o‘zgartirish va ishlatish mumkin??",
+    "javob": "Android Studio, IntelliJ IDEA, Eclipse "
+  },
+  {
+    "savol": "Android Studio-da ishlatiladigan asosiy o‘lchov birligi nima??",
+    "javob": "dp "
+  },
+  {
+    "savol": "BlueStacks dasturidan qay maqsadda foydalanamiz??",
+    "javob": "Emulyator "
+  },
+  {
+    "savol": "Katta kichik harflarga sezuvchanlik hususiyati qanday nomlanadi??",
+    "javob": "Case sensitive"
+  },
+  {
+    "savol": "Android Studioda fayl ichidan qidiruvni amalga oshirish uchun qaysi klavishlar ketma-ketligi bosiladi??",
+    "javob": "Ctrl + F "
+  },
+  {
+    "savol": "ToggleButton sinfining eng ko‘p ishlatiladigan usullari qanday??",
+    "javob": "Barcha javoblar to‘g‘ri"
+  },
+  {
+    "savol": "Android CheckBox klassi qaysi sinfning subclassi??",
+    "javob": "CompoundButton "
+  },
+  {
+    "savol": "Android Studioda qanday maxsulotlar yaratish mumkin??",
+    "javob": "Barcha javoblar to‘g‘ri "
+  },
+  {
+    "savol": "CheckBox nima??",
+    "javob": "bu maxsus turdagi button va ikkita holatda bo‘lishi mumkin: tekshirilgan yoki belgilanmagan."
+  },
+  {
+    "savol": "\"Ochiq telefon\" linyasi qachon tuzilgan??",
+    "javob": "2007 yil"
+  },
+  {
+    "savol": "RadioGroup qaysi tugmani o‘z ichiga oladi??",
+    "javob": "RadioButton"
+  },
+  {
+    "savol": "Android Studioda qaysi tillarda dastur yozish mumkin??",
+    "javob": "Barcha javoblar to‘g‘ri"
+  },
+  {
+    "savol": "Android Studioda muharrir uchun mavzu (rang sxemalari) ni sozlash ketma-ketligi qanday??",
+    "javob": "File » Settings » Editor » Color Scheme"
+  },
+  {
+    "savol": "Android-ning muhim xususiyatlari qanday??",
+    "javob": "Barcha javoblar to‘g‘ri "
+  },
+  {
+    "savol": "… tugma hisoblanib, uni bosish orqali muayyan amalni bajarishga dasturlash mumkin.?",
+    "javob": "Button"
+  },
+  {
+    "savol": "Matematik amallarni o‘z ichiga olgan kutubxona qanday nomlanadi??",
+    "javob": "Math "
+  },
+  {
+    "savol": "Android Studioda sozlamalarga kirish ketma-ketligi qanday??",
+    "javob": "File » Settings "
+  },
+  {
+    "savol": "Toast sinfining maqsadi nima??",
+    "javob": "Ma'lum vaqtdan keyin xabarnomani ko‘rsatish uchun foydalaniladi."
+  },
+  {
+    "savol": "Fon rangi qaysi atribut orqali o‘rnatiladi??",
+    "javob": "android:background=\"#E3254B\""
+  },
+  {
+    "savol": "… buttonning maxsus turi hisoblanib, ikki hil holatda bo‘lishi mumkin: checked yoki unchecked.?",
+    "javob": "CheckBox "
+  },
+  {
+    "savol": "Quyidagi dialog oynalaridan qaysi biri Android tomonidan qo‘llab-quvvatlanadi??",
+    "javob": "AlertDialog"
+  },
+  {
+    "savol": "Qaysi MBBT avtomatik ravishda Android tomonidan taqdim etiladi??",
+    "javob": "SQLite "
+  },
+  {
+    "savol": "TableLayout  - oynasi jadval qatorini hosil qilish uchun qaysi  elementdan foydalaniladi??",
+    "javob": "TableRow"
+  },
+  {
+    "savol": "Android Studioda kiritilgan matnni kursiv ko‘rinishiga o‘tkazish qaysi buyrug‘i to‘g‘ri kiritilgan qatorni belgilang??",
+    "javob": "android:textStyle=\"italic \""
+  },
+  {
+    "savol": "Obyekt gorizontal uzunligini (kengligini) sozlash uchun qaysi atributga murojaat qilinadi??",
+    "javob": "width"
+  },
+  {
+    "savol": "Komponentaning tashqi chegarasida bo‘sh joy qoldirish uchun qaysi atributdan foydalaniladi??",
+    "javob": "margin"
+  },
+  {
+    "savol": "Komponentaning ichki chegarasida bo‘sh joy qoldirish uchun qaysi atributdan foydalaniladi??",
+    "javob": "padding"
+  },
+  {
+    "savol": "Obyekt nom berish uchun qaysi atributga murojaat qilinadi??",
+    "javob": "text"
+  },
+  {
+    "savol": "…– bu komponentalarni ma’lum o‘lchamlar va oraliqlar asosida joylashtirish imkoniyatini yaratadi.?",
+    "javob": "AbsoluteLayout"
+  },
+  {
+    "savol": "… buttonga o‘xshash vidjet bo‘lib, rasmni tugma sifatida ishlatish mumkin.?",
+    "javob": "ImageButton "
+  },
+  {
+    "savol": "Android Studioda brauzerlarni integratsiya qilish ketma-ketligi qanday??",
+    "javob": "File » Settings » Tools » Web Browsers"
+  },
+  {
+    "savol": "Android Virtual Device (AVD) ishga tushirish tartibini tanlang??",
+    "javob": "AVD-ni ikki marta bosiladi yoki Start bosiladi; Ishlayotgan emulyatorni to‘xtatish uchun o‘ng tugma bosiladi va Stop yoki Menu » Stop ketma ketligi "
+  },
+  {
+    "savol": "Android Studioda kod muharriridagi shriftni o‘zgartirish ketma-ketligi qanday??",
+    "javob": "File » Settings » Editor » Font » Size "
+  },
+  {
+    "savol": "…- bu komponentalarni bitta qatorga (gorizontal) yoki ustun (vertikal)ga joylashtirish uchun ishlatiladi.?",
+    "javob": "LinearLayout"
+  },
+  {
+    "savol": "… - komponentalarning jadval asosida joylashuvidir.?",
+    "javob": "TableLayout"
+  },
+  {
+    "savol": "Android Studioda mantiqiy ma’lumotlar qaysi tip orqali e’lon qilinadi??",
+    "javob": "Boolean"
+  },
+  {
+    "savol": "Android Studioda yangi plagin o‘rnatish ketma-ketligi qanday??",
+    "javob": "File » Settings »Plugins » Search & Install"
+  },
+  {
+    "savol": "… - komponentalarning jadval asosida joylashuvidir.?",
+    "javob": "TableLayout"
+  },
+  {
+    "savol": "Android Studioda CheckBox tugmasini aktiv holati to‘g‘ri keltirilgan qatorni belgilang??",
+    "javob": "android:checked=\"true\""
+  },
+  {
+    "savol": "Komponentaning ichki yuqori chegarasidan bo‘sh joy qoldirish uchun qaysi atributdan foydalaniladi??",
+    "javob": "paddingTop"
+  },
+  {
+    "savol": "Android Studioda yaratilgan ilovalni .apk formatga o‘tkazish ketma-ketligi qanday??",
+    "javob": "Build » Build bundle » Build APK "
+  },
+  {
+    "savol": "Komponentaning tashqi chap chegarasidan bo‘sh joy qoldirish uchun qaysi atributdan foydalaniladi??",
+    "javob": "marginLeft "
+  },
+  {
+    "savol": "…- activity foydalanuvchi tomonidan ishlatilayotganda chaqiriladi.?",
+    "javob": "onResume()"
+  },
+  {
+    "savol": "LinearLayout bu-…?",
+    "javob": "komponentalarni bitta qatorga (gorizontal) yoki ustun (vertikal)ga joylashtirish uchun ishlatiladi."
+  },
+  {
+    "savol": "…- activity foydalanuvchiga ko‘rinmay qolganida chaqiriladi?",
+    "javob": "onStop()"
+  },
+  {
+    "savol": "Komponentaning tashqi o‘ng chegarasidan bo‘sh joy qoldirish uchun qaysi atributdan foydalaniladi??",
+    "javob": "marginRight "
+  },
+  {
+    "savol": "Komponentaning ichki chap chegarasidan bo‘sh joy qoldirish uchun qaysi atributdan foydalaniladi??",
+    "javob": "paddingLeft "
+  },
+  {
+    "savol": "Android Studioda kiritilgan matn qalinligini sozlash to‘g‘ri kiritilgan qatorni belgilang??",
+    "javob": "android:textStyle=\"bold\""
+  },
+  {
+    "savol": "DataPicker foydalanuvchiga quyidagilarni amalga oshirishga imkon beradi:?",
+    "javob": "Sanani belgilash"
+  },
+  {
+    "savol": "Android Studioda ochiq turgan loyihani yopish ketma-ketligi qanday??",
+    "javob": "File » Close "
+  },
+  {
+    "savol": "…-TextView ning qo‘shimcha imkoniyatli turi hisoblanib, foydalanuvchi ushbu komponenta orqali ma’lumot kiritishi mumkin.?",
+    "javob": "EditText"
+  },
+  {
+    "savol": "Android Studioda matnga rang berish qaysi atribut orqali o‘rnatiladi??",
+    "javob": "android: textcolor"
+  },
+  {
+    "savol": "TimePickerDialog foydalanuvchiga quyidagilarni amalga oshirishga imkon beradi:?",
+    "javob": "Vaqtni tanlash"
+  },
+  {
+    "savol": "Android Studioda mavjud loyihani ochish ketma-ketligi to‘g‘ri keltirilgan javobni belgilang??",
+    "javob": "File » Open"
+  },
+  {
+    "savol": "Obyekt vertikal uzunligini sozlash uchun qaysi atributga murojaat qilinadi??",
+    "javob": "height"
+  },
+  {
+    "savol": "Android ilovasida testlarni yaratish uchun qanday paket ishlatiladi??",
+    "javob": "test "
+  },
+  {
+    "savol": "Funksiya o‘zi chaqirilgan moduldan qabul qilib oladigan qiymatlar nima deb ataladi??",
+    "javob": "argument"
+  },
+  {
+    "savol": "Android Studioda yangi loyiha yaratish ketma-ketligi to‘g‘ri keltirilgan javobni belgilang?",
+    "javob": "File » New » New Project"
+  },
+  {
+    "savol": "MainActivity.java faylidagi \"button\" ga murojaat qilish uchun activity_main.xml dagi tugma uchun qanday funktsiya yozilgan??",
+    "javob": "android: id = \"@ + id / button\""
+  },
+  {
+    "savol": "Matn qalinligini sozlash uchun qaysi atributga qiymat beriladi??",
+    "javob": "android:textStyle"
+  },
+  {
+    "savol": "Android Studioda boshqa dasturlash muharriri (IntellijIdea, VSCode, …) da yaratilgan loyihani import qilish ketma-ketligi to‘g‘ri keltirilgan javobni belgilang?",
+    "javob": "File » New » Import Project "
+  },
+  {
+    "savol": "Matnni o‘rtaga tekislash uchun textAlign atributiga qanday qiymat beriladi??",
+    "javob": "center"
+  },
+  {
+    "savol": "MainActivity.java faylidagi \"TextView\" ga matn kiritish uchun activity_main.xml dagi tugma uchun qanday funktsiya yozilgan??",
+    "javob": "android: text = \"Salom\""
+  },
+  {
+    "savol": "CheckBox sinfining asosiy usullari qanday??",
+    "javob": "public boolean isChecked (), public void setChecked (boolean status)"
+  },
+  {
+    "savol": "Android Studioda Button tugmasi bosilganda Buttonni ishga tushuvchi buyruq to‘g‘ri keltirilgan qatorni toping??",
+    "javob": "android:onClick"
+  },
+  {
+    "savol": "…-dastur birinchi marta ishga tushganda activity ni  chaqiradi.?",
+    "javob": "onCreate()"
+  },
+  {
+    "savol": "Android Studioda komponentaning ichki o‘ng chegarasidan bo‘sh joy qoldirish uchun qaysi atributdan foydalaniladi??",
+    "javob": "android:paddingRight "
+  },
+  {
+    "savol": "…- activity to‘xtatilgan vaqtda chaqiriladi.?",
+    "javob": "onDestroy()"
+  }
+]
