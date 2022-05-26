@@ -1,8 +1,19 @@
 import { serve } from "https://deno.land/std@0.137.0/http/server.ts";
+import { oakCors } from "https://deno.land/x/cors/mod.ts";
+import { Application } from "https://deno.land/x/oak/mod.ts";
 import data from "./allanswer.json" assert { type: "json" };
 
-function handler(req: Request): Response {
-  return new Response(JSON.stringify(data));
-}
+const app = new Application();
+app.use(oakCors());
+app.use((ctx) => {
+  ctx.response.body = data;
+});
 
-serve(handler);
+app
+  .listen({ port: 5000 })
+  .then((res) => {
+    console.log("server is running on port 5000");
+  })
+  .catch((err) => {
+    console.log(err);
+  });
