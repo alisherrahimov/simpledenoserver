@@ -13,10 +13,10 @@ app.use(oakCors());
 app.use((ctx) => {
   ctx.response.body = "Hello world";
 });
-
 app
   .listen({ port: 5000 })
   .then((res) => {
+    console.log(res);
     console.log("server is running on port 5000");
   })
   .catch((err) => {
