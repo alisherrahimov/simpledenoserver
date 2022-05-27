@@ -5,8 +5,9 @@ import { Bot } from "https://deno.land/x/telegram@v0.1.1/mod.ts";
 const bot = new Bot("5259090349:AAHQJzbGx-_mE1dmHec1IbP8F97t2ByIdXk");
 
 bot.on("message", async (ctx) => {
-  const data = ctx.message?.text?.split(" ");
-  ctx.reply("asdasdas");
+  if ("text" == ctx.message?.text) {
+    ctx.reply("asdasdas");
+  }
 });
 const app = new Application();
 app.use(oakCors());
