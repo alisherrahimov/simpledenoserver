@@ -1,12 +1,16 @@
-import { serve } from "https://deno.land/std@0.137.0/http/server.ts";
+// import { connectDB } from "./db.ts";
 import { oakCors } from "https://deno.land/x/cors/mod.ts";
 import { Application } from "https://deno.land/x/oak/mod.ts";
-import data from "./allanswer.json" assert { type: "json" };
-
+// import { Bot } from "https://deno.land/x/telegram@v0.1.1/mod.ts";
+// const bot = new Bot("5259090349:AAHQJzbGx-_mE1dmHec1IbP8F97t2ByIdXk");
+// bot.on("message", async (ctx) => {
+//   const data = ctx.message?.text?.split(" ");
+//   console.log(data);
+// });
 const app = new Application();
 app.use(oakCors());
 app.use((ctx) => {
-  ctx.response.body = data;
+  ctx.response.body = "Hello world";
 });
 
 app
